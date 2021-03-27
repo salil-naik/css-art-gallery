@@ -1,0 +1,57 @@
+.container {
+  background: #c9d6ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #e2e2e2,
+    #c9d6ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #e2e2e2,
+    #c9d6ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.stackV {
+  display: flex;
+  flex-direction: column;
+}
+
+.stackH {
+  display: flex;
+}
+
+.semiLeft {
+  height: 50px;
+  width: 100px;
+  border-radius: 25px;
+  background: linear-gradient(to right, rgb(242, 78, 30) 50%, rgb(255, 114, 98) 50%); 
+}
+
+.semiLeftSecond {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px 0 0 25px;
+  background-color: rgb(162, 89, 255);
+}
+
+.semiRight {
+  height: 50px;
+  width: 50px;
+  border-radius: 0 25px 25px 0;
+  background-color: rgb(255, 114, 98);
+}
+
+.circle {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  background-color: rgb(26, 188, 254);
+}
+
+.green {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px 0 25px 25px;
+  background-color: rgb(10, 207, 131);
+}

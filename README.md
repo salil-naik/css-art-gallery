@@ -1,7 +1,4 @@
 # CSS Art Gallery
-
-# Contributing Guidelines
-
 Run the `yarn start` command in the terminal
 
 This command will run the app in the development mode.

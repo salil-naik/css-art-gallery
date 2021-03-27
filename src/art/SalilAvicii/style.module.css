@@ -1,0 +1,48 @@
+.container {
+  background-color: #111;
+}
+
+.artContainer{
+  position:relative;
+  height: 200px; 
+  width: 200px;
+}
+
+.side{
+  position:absolute; 
+  top:64px; left:-20px;
+  height:200px; width:200px;
+}
+
+.triangle{
+  /* width:100px; height:150px;  */
+  /* background:orange; */
+  border:100px solid transparent;
+  border-right: 100px solid rgba(0, 0, 255, 0.7);
+  transform: rotateZ(-135deg);
+  position: relative;
+}
+
+.triangle::after{
+  content:'';
+  border:100px solid transparent;
+  border-right: 100px solid rgba(255, 255, 255, 0.9);
+  position:absolute; 
+  top:-100px;
+  left: -105px;
+}
+
+.triangle::before{
+  content:'';
+  border:100px solid transparent;
+  border-right: 100px solid rgba(0, 255, 0, 0.7);
+  position:absolute; 
+  top: -100px;
+  left: -110px;
+}
+
+.mirror{
+  transform: rotateZ(45deg);
+  top: -130px;
+  left: 40px;
+}

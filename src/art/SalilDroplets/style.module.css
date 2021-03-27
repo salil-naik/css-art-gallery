@@ -1,0 +1,31 @@
+.container {
+  background-color: #0b2429;
+}
+
+.artContainer {
+  width: 140px;
+  height: 140px;
+}
+
+.circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px 0 35px 35px;
+  background-color: #f3ac3c;
+  box-shadow: 35px -35px #998235;
+  position: relative;
+  z-index: 2;
+  top: 70px;
+}
+
+.circle::after {
+  content: '';
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-color: #f3ac3c;
+  border-radius: 35px 35px 35px 0;
+  top: -70px;
+  left: 70px;
+  z-index: 1;
+}

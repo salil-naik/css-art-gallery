@@ -1,0 +1,52 @@
+.container {
+  background: #d3cce3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #e9e4f0,
+    #d3cce3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #e9e4f0,
+    #d3cce3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.logoContainer {
+  position: relative;
+  height: 160px;
+  width: 160px;
+}
+
+.petal {
+  height: 40px;
+  width: 80px;
+  background-color: #f6b704;
+  border-radius: 40px 40px 0 0;
+  position: relative;
+  top: 40px;
+}
+
+.petal::after {
+  content: '';
+  position: absolute;
+  height: 40px;
+  width: 80px;
+  background-color: #e54335;
+  border-radius: 40px 40px 0 0;
+  transform: rotateZ(90deg);
+  left: 60px;
+  bottom: 20px;
+}
+
+.mirror {
+  position: absolute;
+  top: 80px;
+  transform: rotateZ(180deg);
+  left: 80px;
+  background-color: #4280ef;
+}
+
+.mirror::after {
+  background-color: #34a353;
+}

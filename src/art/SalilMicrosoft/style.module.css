@@ -1,0 +1,25 @@
+.container {
+  background-color: #F2F2F2;
+}
+
+.logoContainer{
+  width:180px;
+  display:flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.block{
+  width:60px; height: 60px; 
+  margin-right: 65px;
+  margin-bottom: 70px;
+  background-color: #F44E24;
+  box-shadow: 65px 0 #81B900, 0 65px #01A4EF, 65px 65px #FFB902;
+}
+
+.title{
+  color: #717171;
+  font-size:1.75rem;
+  margin:0;
+}

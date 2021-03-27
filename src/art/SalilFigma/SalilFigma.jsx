@@ -1,9 +1,16 @@
 import style from "./style.module.css";
+import { Credit } from "../../components/Credit/index";
 
 function SalilFigma() {
+  let data = {
+    name: "Salil Naik",
+    "gh-link": "https://github.com/salil-naik",
+    "art-name": "Figma logo",
+  };
+
   return (
     <div className={`${style.container} container`}>
-      {/* do not edit the className above*/}
+      {/* do not edit the line above*/}
 
       {/* your art blocks will come here */}
       <div className={style.stackV}>
@@ -17,10 +24,8 @@ function SalilFigma() {
         </div>
       </div>
 
-      {/* only edit the name and github link below */}
-      <div className="credits">
-        Art by <a href="https://github.com/salil-naik" target="_blank">Salil Naik</a>
-      </div>
+      {/* do not edit the line below */}
+      <Credit data={data} />
     </div>
   );
 }

@@ -1,7 +1,5 @@
-import style from "./app.module.css";
-
 // Components
-import {Header} from "./components/Header/index";
+import { Header } from "./components/Header/index";
 
 // Art components
 import SalilFigma from "./art/SalilFigma/SalilFigma.jsx";
@@ -12,19 +10,34 @@ import SalilAvicii from "./art/SalilAvicii/SalilAvicii.jsx";
 import SalilEclips from "./art/SalilEclips/SalilEclips.jsx";
 import SalilMicrosoft from "./art/SalilMicrosoft/SalilMicrosoft.jsx";
 
+// An array of Art Components
+let componentArr = [
+  <SalilFigma />,
+  <SalilReact />,
+  <SalilPhotos />,
+  <SalilDroplets />,
+  <SalilAvicii />,
+  <SalilEclips />,
+  <SalilMicrosoft />,
+];
+
 function App() {
   return (
     <>
-    <Header />
-    <div className={style.gallery}>
-        <SalilFigma />
-        <SalilReact />
-        <SalilPhotos />
-        <SalilDroplets />
-        <SalilAvicii />
-        <SalilEclips />
-        <SalilMicrosoft />
-    </div>
+      <Header />
+      <div className="grid-container full">
+        <div className="grid-x">
+          {
+            componentArr.map((component, index)=>{
+              return(
+                <div className="cell large-4 medium-6" key={index}>
+                  {component}
+                </div>
+              )
+            })
+          }
+        </div>
+      </div>
     </>
   );
 }

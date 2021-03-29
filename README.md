@@ -1,6 +1,6 @@
 # CSS Art Gallery &middot; ![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg)](README.md) [![Netlify Status](https://api.netlify.com/api/v1/badges/eb3ec884-1819-4b09-95fd-bda3f44863b9/deploy-status)](https://app.netlify.com/sites/css-art-gallery/deploys)
 
-**A collection of CSS Art**
+
 ![Cover Image](./src/images/cover-image.png);
 
 Run the `yarn start` command in the terminal

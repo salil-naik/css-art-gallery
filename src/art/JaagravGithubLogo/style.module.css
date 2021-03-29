@@ -13,6 +13,7 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+  transform: scale(0.7);
 }
 
 .head {

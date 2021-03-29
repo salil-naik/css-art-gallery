@@ -1,0 +1,33 @@
+.container {
+  background-color: #f2f2f2;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    .drop{
+      transform: rotateZ(-135deg) rotateY(180deg);
+      transition: 1s ease-in-out;
+    }
+  }
+}
+
+// colors
+$red: #ff7262;
+$blue: rgb(26, 188, 254);
+$green: rgb(10, 207, 131);
+$indigo: rgb(162, 89, 255);
+$violet: #ffa4ef;
+
+.drop {
+  width: 200px;
+  height: 80px;
+  border-radius: 40px;
+  background-color: $blue;
+  transform: rotateZ(-45deg) rotateY(0);
+  box-shadow: 
+  -230px 0 $violet, 230px 0 $indigo, 
+  115px 110px $red, -115px 110px $green, 
+  115px -110px $green, -115px -110px $indigo, 
+  0px 230px $violet, 0px -230px $red;
+  transition: 1s ease-in-out;
+}

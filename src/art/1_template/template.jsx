@@ -3,6 +3,7 @@ import { Credit } from "../../components/Credit/index";
 
 // Replace ComponentName with YourName followed by ArtName.
 // For example, SalilReactLogo or SalilNaikReactLogo
+// component name, file name and folder name should be same. 
 
 function ComponentName() {
   // Enter your name, github url and art-name below
@@ -17,8 +18,7 @@ function ComponentName() {
 
       {/* your art blocks will come here */}
       <div>
-
-        
+        <div className={style.circle}></div>
       </div>
 
       {/* do not edit the line below */}

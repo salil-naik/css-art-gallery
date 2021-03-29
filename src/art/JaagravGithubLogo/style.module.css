@@ -56,13 +56,5 @@
 }
 
 .tail {
-  /* transform: translate(-50px, 2px); */
-  width: 124px;
-  position: absolute;
-  height: 55px;
-  margin-top: 56px;
-  margin-left: -103px;
-  transform: rotate(18deg);
-  border-radius: 50%;
-  box-shadow: 10px 25px 0 0 #2d333b;
+  transform: translate(-50px, 2px);
 }

@@ -18,7 +18,8 @@ function ComponentName() {
 
       {/* your art blocks will come here */}
       <div>
-        <div className={style.circle}></div>
+
+
       </div>
 
       {/* do not edit the line below */}

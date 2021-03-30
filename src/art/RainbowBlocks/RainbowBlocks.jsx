@@ -1,16 +1,15 @@
-import style from "./style.module.css";
+import style from "./style.module.scss";
 import { Credit } from "../../components/Credit/index";
 
 // Replace ComponentName with YourName followed by ArtName.
 // For example, SalilReactLogo or SalilNaikReactLogo
-// component name, file name and folder name should be same. 
 
-function ComponentName() {
+function RainbowBlocks() {
   // Enter your name, github url and art-name below
   let data = {
-    name: "",
-    "gh-link": "",
-    "art-name": "",
+    name: "Salil Naik",
+    "gh-link": "https://github.com/salil-naik",
+    "art-name": "Rainbow Blocks",
   };
   return (
     <div className={`${style.container} container`}>
@@ -18,7 +17,7 @@ function ComponentName() {
 
       {/* your art blocks will come here */}
       <div>
-        <div className={style.circle}></div>
+        <div className={style.drop}></div>        
       </div>
 
       {/* do not edit the line below */}
@@ -27,4 +26,4 @@ function ComponentName() {
   );
 }
 
-export default ComponentName;
+export default RainbowBlocks;

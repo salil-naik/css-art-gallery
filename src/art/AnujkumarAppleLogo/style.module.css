@@ -1,0 +1,45 @@
+.container{
+    background-color: #000;
+}
+
+.logo{
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    background: #a2aaad;
+    width: 200px;
+    height: 180px;
+    border-radius: 35% 35% 41% 41% / 42% 42% 75% 75%;
+}
+
+.logo::before{
+    background: #a2aaad;
+    content: "";
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    margin: -51px 0 0 100px;
+    border-radius: 100px 0;
+    z-index: 5;
+}
+
+.logo::after{
+    background: #000;
+    content: "";
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    margin: 28px 0 0 174px;
+    border-radius: 50%;
+  
+    box-shadow: -127px -109.5px 0 #000,
+                -118px -107px 0 #000,
+                -115.5px -102.5px 0 #000,
+                -105.5px -109.5px 0 #000,
+                -105.5px -109.5px 0 #000,
+                -122px 145px 0 #000,
+                -107.5px 166px 0 #000,
+                -119px 161px 0 #000;
+    z-index: 4;
+}

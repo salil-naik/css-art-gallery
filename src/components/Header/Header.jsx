@@ -14,12 +14,12 @@ export function Header() {
   });
   return (
     <div className={style.header}>
-      <div className={style.container}>
+      <div className={`${style.container} grid-container`}>
         <div className={style.title}>
           <div className={style.square}></div>
           <div className={style.circle}></div>
           <div className={style.shape}></div>
-          <div>CSS Art Gallery</div>
+          <p className={style.titleText}>CSS Art Gallery</p>
         </div>
         <a
           href="https://github.com/salil-naik/css-art-gallery"

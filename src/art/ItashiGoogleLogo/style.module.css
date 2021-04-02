@@ -1,0 +1,40 @@
+.container {
+    background-color: #111;
+  }
+
+  .googleLogo
+{
+    position:relative;
+    width:12rem;
+    height:12rem;
+    border-radius:50%;
+    border-left:40px solid #fbbc05;
+    border-right:40px solid #4385f6;
+    border-top:40px solid #ec4336;
+    border-bottom:40px solid #34a856;
+   
+}
+
+.googleLogo::before{
+    content:'';
+    position:absolute;
+    top:-154px;
+    right:-150px;
+    border-top:110px solid transparent;
+    border-right:105px solid  #111;
+    border-bottom:110px solid transparent;
+    border-left:110px solid transparent;
+transform:rotate(90deg);
+}
+
+.googleLogo::after{
+    content:'';
+    position:absolute;
+    top:50%;
+    right:-45px;
+   width:95px;
+   height:40px;
+   background:#4385f6;
+transform:translate(-6px,-18px);
+border-bottom-right-radius:15px;
+}

@@ -14,3 +14,4 @@ To fill the checklists, put x inside the brackets. [x]
 - [] I have not edited App.js file
 - [] I have commented my code, particularly in hard-to-understand areas
 - [] My changes generate no new warnings
+- [] This is my original code and I have NOT copied the code from anywhere else. 

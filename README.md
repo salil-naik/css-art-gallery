@@ -5,11 +5,10 @@
 
 
 ## Run the project
-Run the `yarn start` command in the terminal
+Run the `yarn install` command in the terminal to downlaod the dependencies.   
+Run the `yarn start` command to run the project in the development mode. 
 
-This command will run the app in the development mode.
 Open http://localhost:3000 to view it in the browser.
-
 The page will reload if you make edits.
 
 <br />

@@ -12,6 +12,7 @@ import SalilMicrosoft from "./art/SalilMicrosoft/SalilMicrosoft.jsx";
 import JaagravGithubLogo from "./art/JaagravGithubLogo/JaagravGithubLogo.jsx";
 import RainbowBlocks from "./art/RainbowBlocks/RainbowBlocks.jsx";
 
+
 // An array of Art Components
 let componentArr = [
   <SalilFigma />,

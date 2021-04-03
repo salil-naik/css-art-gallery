@@ -19,8 +19,8 @@ function FarseenInfinity() {
       {/* your art blocks will come here */}
 
       <div className={style.infinitymain}>
-        <div class={style.infinity - 1}></div>
-        <div class={style.infinity - 2}></div>
+        <div class={style.infinity-1}></div>
+        <div class={style.infinity-2}></div>
       </div>
 
       {/* do not edit the line below */}

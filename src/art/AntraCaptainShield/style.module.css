@@ -1,0 +1,82 @@
+.container {
+  --size: 165px;
+  --red-color: #b40000;
+  --blue-color: #003c96;
+  background-color: #ffcdd2;
+}
+
+.outerRedCircle,
+.whiteCircle,
+.blueCircle,
+.innerRedCircle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.outerRedCircle {
+  height: var(--size);
+  width: var(--size);
+  border-radius: 100%;
+  background-color: var(--red-color);
+}
+
+.whiteCircle {
+  height: calc(var(--size) - 20%);
+  width: calc(var(--size) - 20%);
+  border-radius: 100%;
+  background-color: #fff;
+}
+
+.innerRedCircle {
+  height: calc(var(--size) - 50%);
+  width: calc(var(--size) - 50%);
+  border-radius: 100%;
+  background-color: var(--red-color);
+}
+
+.blueCircle {
+  height: calc(var(--size) - 100%);
+  width: calc(var(--size) - 100%);
+  border-radius: 100%;
+  background-color: var(--blue-color);
+}
+
+.star {
+  position: relative;
+  display: block;
+  width: 0px;
+  height: 0px;
+  border-right: 24px solid transparent;
+  border-bottom: 18px solid #fff;
+  border-left: 24px solid transparent;
+  transform: rotate(37deg);
+}
+
+.star::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  top: -14px;
+  left: -16px;
+  border-bottom: 24px solid #fff;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  transform: rotate(323deg);
+}
+
+.star::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 0px;
+  height: 0px;
+  top: 0;
+  left: -24px;
+  border-right: 24px solid transparent;
+  border-bottom: 18px solid #fff;
+  border-left: 24px solid transparent;
+  transform: rotate(286deg);
+}

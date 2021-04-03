@@ -1,0 +1,55 @@
+
+
+.container{
+  background: linear-gradient(225deg,#8a3ab9,#F730FF,#FF8E2E);
+  height: 150px;
+  width: 150px;
+  display: grid;
+  place-items: center;
+}
+
+
+
+.OuterSquare{
+  border-radius: 30%;
+
+  background: white;
+  height: 100px;
+  width: 100px;
+  display: grid;
+  place-items: center;
+}
+.OuterSquareIn{
+  border-radius: 30%;
+  color: white;
+  height: 80px;
+  width: 80px;
+  background: linear-gradient(225deg,#8a3ab9,#F730FF,#FF8E2E);
+  display: grid;
+  place-items: center;
+}
+.InnerSquare{
+  border-radius: 30%;
+  color: white;
+  height: 50px;
+  width: 50px;
+  background: white;
+  display: grid;
+  place-items: center;
+}
+.circle{
+  border-radius: 50%;
+  height: 5px;
+  width: 5px;
+  background: white;
+  position: absolute;
+  left:105px;
+  top:50px;
+}
+.InnerSquareIn{
+  border-radius: 30%;
+  color: white;
+  height: 30px;
+  width: 30px;
+  background: linear-gradient(225deg,#8a3ab9,#F730FF,#FF8E2E);
+}

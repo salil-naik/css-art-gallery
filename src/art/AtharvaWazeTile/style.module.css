@@ -1,0 +1,13 @@
+.container {
+  background-color: black;
+
+}
+
+.blocks{
+  height: 60px;
+  width: 60px;
+  background-color: red;
+  box-shadow: 90px 0 green,0 90px blue;
+  margin-right: 80px;
+  margin-bottom: 50px;
+}

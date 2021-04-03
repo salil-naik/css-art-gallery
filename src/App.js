@@ -11,6 +11,12 @@ import SalilEclips from "./art/SalilEclips/SalilEclips.jsx";
 import SalilMicrosoft from "./art/SalilMicrosoft/SalilMicrosoft.jsx";
 import JaagravGithubLogo from "./art/JaagravGithubLogo/JaagravGithubLogo.jsx";
 import RainbowBlocks from "./art/RainbowBlocks/RainbowBlocks.jsx";
+import ShwetalBlossom from "./art/ShwetalBlossom/ShwetalBlossom.jsx";
+import SubhashreeRotatingCube from "./art/SubhashreeRotatingCube/SubhashreeRotatingCube.jsx";
+import HarshitFacebook from "./art/HarshitFacebook/HarshitFacebook.jsx";
+import AntraCaptainShield from "./art/AntraCaptainShield/AntraCaptainShield.jsx";
+import FalguniYouTube from "./art/FalguniYouTube/FalguniYouTube.jsx";
+import HarshitInstagram from "./art/HarshitInstagram/HarshitInstagram.jsx";
 
 // An array of Art Components
 let componentArr = [
@@ -22,7 +28,13 @@ let componentArr = [
   <SalilEclips />,
   <SalilMicrosoft />,
   <JaagravGithubLogo />,
-  <RainbowBlocks />
+  <RainbowBlocks />,
+  <ShwetalBlossom />,
+  <SubhashreeRotatingCube />,
+  <HarshitFacebook />,
+  <AntraCaptainShield />,
+  <FalguniYouTube />,
+  <HarshitInstagram />
 ];
 
 function App() {

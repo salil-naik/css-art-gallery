@@ -33,8 +33,10 @@
     border-top: 25px solid transparent;
     border-bottom: 25px solid transparent;
     border-left: 34px solid #fff;
-    left: 58px;
-    top: 35px;
+    left: 50%;
+    margin-left: -17px;
+    top: 50%;
+    margin-top: -25px;
   }
   
   

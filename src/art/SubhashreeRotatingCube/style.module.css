@@ -3,10 +3,9 @@
 }
 
 .body {
-    width: 200px;
-    height: 200px;
-    perspective: 1000px;
-    margin: 100px auto 0;
+    width: 150px;
+    height: 150px;
+    perspective:500px;
     background-color: rgb(162, 89, 255);
 }
 
@@ -25,23 +24,23 @@
 }
 
 .top {
-    transform: rotateX(90deg) translateZ(100px);
+    transform: rotateX(90deg) translateZ(75px);
 }
 
 .bottom {
-    transform: rotateX(-90deg) translateZ(100px);
+    transform: rotateX(-90deg) translateZ(75px);
 }
 
 .right {
-    transform: rotateY(90deg) translateZ(100px);
+    transform: rotateY(90deg) translateZ(75px);
 }
 
 .left {
-    transform: rotateY(-90deg) translateZ(100px);
+    transform: rotateY(-90deg) translateZ(75px);
 }
 
 .front {
-    transform: rotateX(0deg) translateZ(100px);
+    transform: rotateX(0deg) translateZ(75px);
 }
 
 @keyframes spin {
@@ -58,9 +57,9 @@
     width: 100%;
     height: 100%;
     position: relative;
-    animation: spin 5s infinite linear;
+    animation: spin 10s infinite linear;
 }
 
 .back {
-    transform: rotateX(-180deg) translateZ(100px);
+    transform: rotateX(-180deg) translateZ(75px);
 }

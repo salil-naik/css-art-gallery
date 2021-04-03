@@ -1,0 +1,40 @@
+#YouTube{
+    width: 100%;
+    height: 45vh;
+    background-color: #f2f2f2;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .YTlogo{
+    width: 150px;
+    height: 120px;
+    background-color: red;
+    margin: 0;
+    border-radius: 60%/9%;
+    position: relative;
+  }
+  
+  .YTlogo::before{
+    content: "";
+    position: absolute;
+    top: 7%;
+    bottom: 7%;
+    left: -9.5%;
+    right: -9.5%;
+    background-color: red;
+    border-radius: 9%/50%;
+  }
+  
+  .YTlogo::after{
+    content: "";
+    position: absolute;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-left: 34px solid #fff;
+    left: 58px;
+    top: 35px;
+  }
+  
+  

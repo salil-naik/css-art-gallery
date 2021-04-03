@@ -1,0 +1,23 @@
+.container {
+  background-color: pink;
+}
+.infinitymain {
+  display: flex;
+}
+.infinity-1 {
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50% 50% 0 50%;
+  border: 5px solid black;
+  transform: rotate(-45deg);
+}
+
+.infinity-2 {
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50% 50% 0 50%;
+  border: 5px solid black;
+  transform: rotate(135deg);
+}

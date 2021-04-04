@@ -1,7 +1,7 @@
 import style from "./style.module.css";
 import { Credit } from "../../components/Credit/index";
 
-function JaagravGithubLogo() {
+function AvishakeAudiLogo() {
   let data = {
     name: "Avishake",
     "gh-link": "https://github.com/Avishake007",
@@ -24,4 +24,4 @@ function JaagravGithubLogo() {
   );
 }
 
-export default JaagravGithubLogo;
+export default AvishakeAudiLogo;

@@ -5,7 +5,7 @@ import { Credit } from "../../components/Credit/index";
 // For example, SalilReactLogo or SalilNaikReactLogo
 // component name, file name and folder name should be same. 
 
-function ComponentName() {
+function SheetalJainPepsi() {
   // Enter your name, github url and art-name below
   let data = {
     name: "Sheetal Jain",
@@ -25,4 +25,4 @@ function ComponentName() {
   );
 }
 
-export default ComponentName;
+export default SheetalJainPepsi;

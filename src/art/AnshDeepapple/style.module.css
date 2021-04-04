@@ -3,7 +3,7 @@
 }
 
 .blocks{
-  left: 50%;
+  left: 48%;
     top: 50%;
     position: absolute;
     transform: translate(-50%,-50%);
@@ -18,21 +18,12 @@
   width: 55px;
   height: 55px;
   position: absolute;
-  margin: -51px 0 0 100px;
+  margin: -104px 0 0 -12px;
   border-radius: 100px 0;
   z-index: 5;
   
 }
 
-.apple{ background: #000;
-  content: "";
-  width: 90px;
-  height: 90px;
-  position: absolute;
-  margin: 28px 0 0 174px;
-  border-radius: 50%;
-  z-index: 4;
-  
-}
+
 
    

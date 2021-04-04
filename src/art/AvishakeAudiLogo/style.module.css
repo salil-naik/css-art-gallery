@@ -16,13 +16,3 @@
 .circletwo, .circlethree, .circlefour{
     margin-left:-20px;
 }
-
-.circletwo{
-    z-index: 2;
-}
-.circlethree{
-    z-index: 3;
-}
-.circlefour{
-    z-index: 4;
-}

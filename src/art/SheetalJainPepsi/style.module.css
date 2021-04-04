@@ -1,0 +1,23 @@
+.container {
+    background-color: #34588e;
+}
+  .pepsi{
+      border-radius: 50%;
+      height: 150px;
+      width: 150px;
+      border: 10px solid white;
+      overflow: hidden;
+      position: relative;
+  }
+
+  .pepsi:after{
+      border-radius: 50%;
+      background-color: #da473c;
+      height: 150px;
+      width: 150px;
+      content: "";
+      position: absolute;
+      top: -40px;
+      left: -40px;
+      z-index: 2;
+  }

@@ -17,6 +17,13 @@ import HarshitFacebook from "./art/HarshitFacebook/HarshitFacebook.jsx";
 import AntraCaptainShield from "./art/AntraCaptainShield/AntraCaptainShield.jsx";
 import FalguniYouTube from "./art/FalguniYouTube/FalguniYouTube.jsx";
 import HarshitInstagram from "./art/HarshitInstagram/HarshitInstagram.jsx";
+// import SurajJhaCircle from  "./art/SurajJhaCircle/SurajJhaCircle.jsx";
+import SheetalJainPepsi from  "./art/SheetalJainPepsi/SheetalJainPepsi.jsx";
+import TarunGitLogo from  "./art/TarunGitLogo/TarunGitLogo.jsx";
+import RitikaAgrawalMoneyHeistMask from  "./art/RitikaAgrawalMoneyHeistMask/RitikaAgrawalMoneyHeistMask.jsx";
+import SharvariBirajdarLoader from  "./art/SharvariBirajdarLoader/SharvariBirajdarLoader.jsx";
+import AyushYadavAbstractArt from  "./art/AyushYadavAbstractArt/AyushYadavAbstractArt.jsx";
+// import AvishakeAudiLogo from  "./art/AvishakeAudiLogo/AvishakeAudiLogo.jsx";
 
 // An array of Art Components
 let componentArr = [
@@ -29,12 +36,18 @@ let componentArr = [
   <SalilMicrosoft />,
   <JaagravGithubLogo />,
   <RainbowBlocks />,
+  <RitikaAgrawalMoneyHeistMask />,
   <ShwetalBlossom />,
   <SubhashreeRotatingCube />,
   <HarshitFacebook />,
   <AntraCaptainShield />,
   <FalguniYouTube />,
-  <HarshitInstagram />
+  <HarshitInstagram />,
+  // <SurajJhaCircle />,
+  <SheetalJainPepsi />,
+  <SharvariBirajdarLoader />,
+  <TarunGitLogo />,
+  <AyushYadavAbstractArt />
 ];
 
 function App() {

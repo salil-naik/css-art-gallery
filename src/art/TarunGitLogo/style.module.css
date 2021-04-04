@@ -1,15 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.center {
-  width: 100vw;
-  height: 100vh;
+.container {
   background-color: #d3d3db;
-  display: grid;
-  place-items: center;
 }
 
 .logo {
@@ -18,7 +8,7 @@
   background-color: #f05033;
   border-radius: 15px;
   position: relative;
-  transform: rotate(45deg);
+  transform: rotate(45deg) scale(0.8);
 }
 
 .line1 {

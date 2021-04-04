@@ -17,10 +17,7 @@ function ComponentName() {
       {/* DO NOT edit the line above*/}
 
       {/* your art blocks will come here */}
-      <div className={`${style.pepsi} pepsi`}>
-
-        
-      </div>
+      <div className={style.pepsi}></div>
 
       {/* do not edit the line below */}
       <Credit data={data} />

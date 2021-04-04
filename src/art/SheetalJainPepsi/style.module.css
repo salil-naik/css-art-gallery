@@ -1,12 +1,6 @@
 .container {
     background-color: #34588e;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-size: cover;
-
-  }
+}
   .pepsi{
       border-radius: 50%;
       height: 150px;

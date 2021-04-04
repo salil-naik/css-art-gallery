@@ -2,43 +2,27 @@
     background: #d0e6e3;
 }
 .logo{
-    height: 55%;
-    width: 72%;
     display: flex;
-    align-items: center;
 }
-.circleone{
-    height: 123px;
-    width: 123px;
+.circleone, .circletwo, .circlethree,  .circlefour{
+    height: 70px;
+    width: 70px;
     border-radius: 50%;
-    border: 8px solid #8e7e7e;
+    border: 7px solid #8e7e7e;
     z-index: 1;
     box-shadow: 4px 2px #d3caca;
 }
+
+.circletwo, .circlethree, .circlefour{
+    margin-left:-20px;
+}
+
 .circletwo{
-    height: 123px;
-    width: 123px;
-    border-radius: 50%;
-    border: 8px solid #8e7e7e;
-    margin-left: -41px;
     z-index: 2;
-    box-shadow: 4px 2px #d3caca;
 }
 .circlethree{
     z-index: 3;
-    height: 123px;
-    width: 123px;
-    border-radius: 50%;
-    border: 8px solid #8e7e7e;
-    margin-left: -41px;
-    box-shadow: 4px 2px #d3caca;
 }
 .circlefour{
     z-index: 4;
-    height: 123px;
-    width: 123px;
-    border-radius: 50%;
-    border: 8px solid #8e7e7e;
-    margin-left: -41px;
-    box-shadow: 4px 2px #d3caca;
 }

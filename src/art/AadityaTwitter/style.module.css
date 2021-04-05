@@ -1,0 +1,12 @@
+.container {
+    background-color: #2daae1;
+    display: flex;
+    overflow:hidden;
+  }
+
+.tbird {
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    transform: none;
+}

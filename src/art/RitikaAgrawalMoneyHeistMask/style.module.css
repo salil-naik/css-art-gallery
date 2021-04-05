@@ -1,0 +1,150 @@
+.container {
+  background-color: #000;
+}
+
+.mask{
+            
+  background:
+      
+      
+      radial-gradient(40% 40% at 20% 20% , #e0ac69 48% , rgba(0,0,0,0) 52%) 13em 27.25em/11em 4.5em,
+      radial-gradient(40% 40% at 20% 20% , #805524 48% , rgba(0,0,0,0) 52%) 13em 27em/11em 4em,
+      
+      
+      radial-gradient(40% 40% at 20% 20% , #c68642 45% , rgba(0,0,0,0) 55%) 13.75em 24.6em/4em 2em,
+      radial-gradient(40% 40% at 20% 20% , #c68642 45% , rgba(0,0,0,0) 55%) 15em 24.6em/4em 2em,
+      radial-gradient(40% 40% at 20% 20% , #c68642 48% , rgba(0,0,0,0) 52%) 12.75em 24.75em/12em 5em,
+      
+       radial-gradient(40% 40% at 20% 20% , #e0ac69 45% , rgba(0,0,0,0) 55%) 13.5em 24.5em/4.5em 2em,
+      radial-gradient(40% 40% at 20% 20% , #e0ac69 45% , rgba(0,0,0,0) 55%) 15.25em 24.5em/4.5em 2em,
+      radial-gradient(40% 40% at 20% 20% , #e0ac69 48% , rgba(0,0,0,0) 52%) 12.45em 24.5em/13em 5em,
+      
+      radial-gradient(40% 40% at 20% 20% , #000 45% , rgba(0,0,0,0) 55%) 13.5em 24em/4.5em 2em,
+      radial-gradient(40% 40% at 20% 20% , #000 45% , rgba(0,0,0,0) 55%) 15.25em 24em/4.5em 2em,
+      radial-gradient(40% 40% at 20% 20% , #000 48% , rgba(0,0,0,0) 52%) 12.25em 24.05em/14em 5em,
+      
+      radial-gradient(40% 40% at 20% 20% , #8b4513 45% , rgba(0,0,0,0) 55%) 13.45em 23.46em/4.25em 2em,
+      radial-gradient(40% 40% at 20% 20% , #8b4513 45% , rgba(0,0,0,0) 55%) 15.25em 23.46em/4.25em 2em,
+      
+      radial-gradient(40% 40% at 20% 20% , #8b4513 48% , rgba(0,0,0,0) 52%) 12.25em 23.5em/14em 8em,
+      
+      radial-gradient(40% 40% at 20% 20% , #e0ac69 48% , rgba(0,0,0,0) 52%) 13.25em 18.5em/9em 9em,
+      radial-gradient(40% 40% at 20% 20% , #805524 48% , rgba(0,0,0,0) 52%) 13em 18.75em/9.5em 9em,
+      
+      radial-gradient(40% 40% at 20% 20% , #000 48% , rgba(0,0,0,0) 52%) 16.45em 20.65em/4em 5em,
+      radial-gradient(40% 40% at 20% 20% , #000 48% , rgba(0,0,0,0) 52%) 11.9em 20.65em/4em 5em,
+      
+     
+      radial-gradient(40% 40% at 20% 20% , #000 48% , rgba(0,0,0,0) 52%) 12.5em 19.75em/12em 8em,
+      
+      radial-gradient(40% 40% at 20% 20% , #e0ac69 48% , rgba(0,0,0,0) 52%) 11.25em 19.5em/6.5em 7.25em,
+      radial-gradient(40% 40% at 20% 20% , #805524 48% , rgba(0,0,0,0) 52%) 11em 19.5em/6.5em 7em,
+      
+      radial-gradient(40% 40% at 20% 20% , #e0ac69 48% , rgba(0,0,0,0) 52%) 16em 19.5em/6.5em 7.25em,
+      radial-gradient(40% 40% at 20% 20% , #805524 48% , rgba(0,0,0,0) 52%) 16.25em 19.5em/6.5em 7em,
+      
+      radial-gradient(40% 40% at 20% 20% , #e0ac69 48% , rgba(0,0,0,0) 52%) 11em 23em/20em 5.5em,
+      radial-gradient(40% 40% at 20% 20% , #000 48% , rgba(0,0,0,0) 52%) 11em 22.25em/20em 5.5em,
+      
+      radial-gradient(40% 40% at 20% 20% , #e0ac69 48% , rgba(0,0,0,0) 52%) 18.75em 15.75em/5em 7em,
+      
+      radial-gradient(40% 40% at 20% 20% , #000 48% , rgba(0,0,0,0) 52%) 18.25em 15.75em/5em 6.75em,
+      radial-gradient(40% 40% at 20% 20% , #e0ac69 48% , rgba(0,0,0,0) 52%) 15.5em 17.6em/10em 15em,
+      radial-gradient(40% 40% at 20% 20% , #000 48% , rgba(0,0,0,0) 52%) 16em 17.95em/10em 15em,
+      
+      
+  
+      radial-gradient(40% 40% at 20% 20% , #e0ac69 48% , rgba(0,0,0,0) 52%) 9.15em 15.75em/5em 7em,
+      radial-gradient(40% 40% at 20% 20% , #000 48% , rgba(0,0,0,0) 52%) 9.75em 15.75em/5em 6.5em,
+      radial-gradient(40% 40% at 20% 20% , #e0ac69 48% , rgba(0,0,0,0) 52%) 10.25em 17.6em/10em 15em,
+      radial-gradient(40% 40% at 20% 20% , #000 48% , rgba(0,0,0,0) 52%) 9.75em 17.95em/10em 15em,
+      
+      radial-gradient(40% 40% at 20% 20% , #000 48% , rgba(0,0,0,0) 52%) 10.45em 13.25em/4.75em 5.5em,
+      radial-gradient(40% 40% at 20% 20% , #000 48% , rgba(0,0,0,0) 52%) 17.9em 13.25em/4.75em 5.5em,
+      
+      radial-gradient(40% 40% at 20% 20% , #fff 49% , rgba(0,0,0,0) 51%) 10em 12.55em/7.75em 7.5em,
+      radial-gradient(40% 40% at 20% 20% , #fff 49% , rgba(0,0,0,0) 51%) 17.35em 12.55em/7.75em 7.25em,
+      
+      radial-gradient(40% 40% at 20% 20% , #a9a9a9 49% , rgba(0,0,0,0) 51%) 12em 13.65em/4em 2.5em,
+      radial-gradient(40% 40% at 20% 20% , #a9a9a9 49% , rgba(0,0,0,0) 51%) 16.6em 13.65em/4em 2.5em,
+      
+      radial-gradient(40% 40% at 20% 20% , #a9a9a9 49% , rgba(0,0,0,0) 51%) 9.75em 12.45em/9em 7.75em,
+      radial-gradient(40% 40% at 20% 20% , #a9a9a9 49% , rgba(0,0,0,0) 51%) 16.95em 12.45em/9em 7.75em,
+      
+      
+      radial-gradient(40% 40% at 20% 20% , #805524 49% , rgba(0,0,0,0) 51%) 11.75em 13.35em/5em 4em,
+      radial-gradient(40% 40% at 20% 20% , #805524 49% , rgba(0,0,0,0) 51%) 16.5em 13.35em/5em 4em,
+      
+      radial-gradient(40% 40% at 20% 20% , #805524 49% , rgba(0,0,0,0) 51%) 9.5em 12.25em/10em 9em,
+      radial-gradient(40% 40% at 20% 20% , #805524 49% , rgba(0,0,0,0) 51%) 16.75em 12.25em/10em 9em,
+      
+      radial-gradient(40% 40% at 20% 20% , #e0ac69 49% , rgba(0,0,0,0) 51%) 9.55em 11.95em/11.95em 9.5em,
+      radial-gradient(40% 40% at 20% 20% , #e0ac69 49% , rgba(0,0,0,0) 51%) 16.75em 11.95em/11.5em 9.5em,
+      
+      radial-gradient(40% 40% at 20% 20% , #805524 49% , rgba(0,0,0,0) 51%) 9.5em 11.5em/12em 10em,
+      radial-gradient(40% 40% at 20% 20% , #805524 49% , rgba(0,0,0,0) 51%) 16.5em 11.5em/12em 10em,
+      
+      radial-gradient(40% 40% at 20% 20% , #e0ac69 49% , rgba(0,0,0,0) 51%) 9.65em 13.25em/11.95em 10em,
+      radial-gradient(40% 40% at 20% 20% , #e0ac69 49% , rgba(0,0,0,0) 51%) 16.75em 13.25em/11.5em 10em,
+      
+      radial-gradient(40% 40% at 20% 20% , #805524 49% , rgba(0,0,0,0) 51%) 9.25em 13.5em/12.5em 10em,
+      radial-gradient(40% 40% at 20% 20% , #805524 49% , rgba(0,0,0,0) 51%) 16.75em 13.5em/12.5em 10em,
+      
+      
+      radial-gradient(40% 40% at 20% 20% , #e0ac69 49% , rgba(0,0,0,0) 51%) 9.95em 14.9em/11.95em 10.75em,
+      radial-gradient(40% 40% at 20% 20% , #805524 49% , rgba(0,0,0,0) 51%) 10em 15em/12.5em 10em,
+      
+      radial-gradient(40% 40% at 20% 20% , #000 35% , rgba(0,0,0,0) 65%) 12.5em 10em/1em 1em,
+      radial-gradient(40% 40% at 20% 20% , #000 35% , rgba(0,0,0,0) 65%) 17.35em 10em/1em 1em,
+      
+      radial-gradient(40% 40% at 20% 20% , #000 35% , rgba(0,0,0,0) 65%) 12.65em 10em/1em 1.5em,
+      radial-gradient(40% 40% at 20% 20% , #000 35% , rgba(0,0,0,0) 65%) 17.15em 10em/1em 1.5em,
+      
+      
+      radial-gradient(40% 40% at 20% 20% , #000 35% , rgba(0,0,0,0) 65%) 12.75em 10.25em/1.5em 2em,
+      radial-gradient(40% 40% at 20% 20% , #000 35% , rgba(0,0,0,0) 65%) 16.75em 10.25em/1.5em 2em,
+      
+      
+      radial-gradient(40% 40% at 20% 20% , #000 40% , rgba(0,0,0,0) 60%) 12.85em 10.55em/2em 1.5em,
+      radial-gradient(40% 40% at 20% 20% , #000 40% , rgba(0,0,0,0) 60%) 16.45em 10.6em/2em 1.5em,
+      
+      radial-gradient(40% 40% at 20% 20% , #e0ac69 49% , rgba(0,0,0,0) 51%) 9.3em 10em/11.95em 9.5em,
+      radial-gradient(40% 40% at 20% 20% , #e0ac69 49% , rgba(0,0,0,0) 51%) 16.15em 10em/11.5em 9.5em,
+      
+      radial-gradient(40% 40% at 20% 20% , #000 49% , rgba(0,0,0,0) 51%) 9em 9.55em/12em 10em,
+      radial-gradient(40% 40% at 20% 20% , #000 49% , rgba(0,0,0,0) 51%) 16.25em 9.55em/12em 10em,
+      
+      
+      
+      
+      radial-gradient(40% 40% at 20% 20% , #000 40% , rgba(0,0,0,0) 60%) 13.5em 29em/8em 1.5em,
+      radial-gradient(40% 40% at 20% 20% , #000 49% , rgba(0,0,0,0) 51%) 20.5em 20.5em/10em 21em,
+      radial-gradient(40% 40% at 20% 20% , #000 49% , rgba(0,0,0,0) 51%) 5.75em 20.5em/10em 21em,
+      
+      radial-gradient(40% 40% at 20% 20% , #e0ac69 45% , rgba(0,0,0,0) 55%) 15.5em 6.75em/6em 3em,
+      radial-gradient(40% 40% at 20% 20% , #e0ac69 45% , rgba(0,0,0,0) 55%) 12.5em 6.75em/6em 3em,
+      
+      radial-gradient(40% 40% at 20% 20% , #e0ac69 49% , rgba(0,0,0,0) 51%) 15.5em 7.5em/12em 10em,
+      radial-gradient(40% 40% at 20% 20% , #e0ac69 49% , rgba(0,0,0,0) 51%) 10em 7.5em/12em 10em,
+      
+      radial-gradient(40% 40% at 20% 20% , #e0ac69 49% , rgba(0,0,0,0) 51%) 17.5em 9.5em/10em 18em,
+      radial-gradient(40% 40% at 20% 20% , #e0ac69 49% , rgba(0,0,0,0) 51%) 8.55em 9.5em/10em 18em,
+      
+      radial-gradient(40% 40% at 20% 20% , #e0ac69 49% , rgba(0,0,0,0) 51%) 14em 23em/16.85em 15.7em,
+      radial-gradient(40% 40% at 20% 20% , #e0ac69 49% , rgba(0,0,0,0) 51%) 9.55em 23em/16.85em 15.7em,
+      
+      
+      
+      radial-gradient(40% 40% at 20% 20% , #e0ac69 49% , rgba(0,0,0,0) 51%) 19em 14.5em/10em 16em,
+      radial-gradient(40% 40% at 20% 20% , #e0ac69 49% , rgba(0,0,0,0) 51%) 7em 14.5em/10em 16em,
+      radial-gradient(40% 40% at 20% 20% , #e0ac69 49% , rgba(0,0,0,0) 51%) 8em 7em/35em 55em,
+      radial-gradient(40% 40% at 20% 20% , rgb(0,0,0) 49% , rgba(0,0,0,0) 51%) 5.5em 4em/48em 80em,
+      radial-gradient(40% 40% at 20% 20% , rgb(240,0,0) 49% , rgba(0,0,0,0) 51%) 4.5em 3em/53em 70em;
+      
+  background-repeat:no-repeat;
+  font-size:10px;
+  width:30em;
+  height:40em;
+  margin-top: 50px;
+  transform : scale(0.65);
+}

@@ -17,6 +17,7 @@ import HarshitFacebook from "./art/HarshitFacebook/HarshitFacebook.jsx";
 import AntraCaptainShield from "./art/AntraCaptainShield/AntraCaptainShield.jsx";
 import FalguniYouTube from "./art/FalguniYouTube/FalguniYouTube.jsx";
 import HarshitInstagram from "./art/HarshitInstagram/HarshitInstagram.jsx";
+import SujoyPython from "./art/SujoyPython/SujoyPython.jsx"
 
 // An array of Art Components
 let componentArr = [
@@ -34,7 +35,8 @@ let componentArr = [
   <HarshitFacebook />,
   <AntraCaptainShield />,
   <FalguniYouTube />,
-  <HarshitInstagram />
+  <HarshitInstagram />,
+  <SujoyPython />
 ];
 
 function App() {

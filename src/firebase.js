@@ -12,7 +12,7 @@ var firebaseConfig = {
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
-firebase.analytics();
+// firebase.analytics();
 
 const artsDB = firebase.database().ref("css-art-gallery/arts");
 

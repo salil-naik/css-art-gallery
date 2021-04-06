@@ -31,17 +31,27 @@ export function Credit(props) {
   }, []);
 
   useEffect(() => {
-    if(index)
-      artsDB.child(index).child("likes").on("value", snap => {
-        const results = snap.val();
-        if(results) {
-          setNoOfLikes(Object.keys(results).length);
-          setLiked(results.hasOwnProperty(window.ip_address));
-        } else {
-          setNoOfLikes(0);
-          setLiked(false);
+    if(index) {
+      // do {
+        const updater = setInterval(update, 500);
+        function update() {
+          if(window.ip_address) {
+            artsDB.child(index).child("likes").on("value", snap => {
+              const results = snap.val();
+              if(results) {
+                setNoOfLikes(Object.keys(results).length);
+                setLiked(results.hasOwnProperty(window.ip_address));
+              } else {
+                setNoOfLikes(0);
+                setLiked(false);
+              }
+            });
+            clearInterval(updater);
+          } 
         }
-      });
+      // } while(!window.ip_address);
+    }
+      
   }, [index])
 
   return (

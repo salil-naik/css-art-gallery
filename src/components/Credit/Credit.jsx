@@ -21,7 +21,7 @@ export function Credit(props) {
       creditsRef.current.classList.remove(style.hover);
     });
     // Hiding and showing Credits on hover
-  }, []);
+  }, [creditsRef]);
 
   return (
     <div className={style.credits} ref={creditsRef}>

@@ -39,6 +39,7 @@
   padding: 0 14px;
   background-color: #ffffff2c;
   transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+  user-select: none;
 }
 
 .likes.highlighted {

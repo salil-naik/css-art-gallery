@@ -1,3 +1,5 @@
+import {artsDB} from "../../firebase";
+
 import { useEffect, useRef, useState } from "react";
 import style from "./style.module.css";
 
@@ -5,11 +7,15 @@ import {MdFavoriteBorder, MdFavorite} from "react-icons/md";
 
 export function Credit(props) {
   const creditsRef = useRef();
-  const [noOfLikes, setNoOfLikes] = useState(79)
+  const [index, setIndex] = useState(null);
+  const [noOfLikes, setNoOfLikes] = useState(0)
   const [liked, setLiked] = useState(false);
-  
-  const likeArt = () => {
-    setLiked(!liked)
+
+  const likeAndUnlikeArt = () => {
+    if(liked)
+      artsDB.child(index).child("likes").child(window.ip_address).set(null);
+    else
+      artsDB.child(index).child("likes").child(window.ip_address).set(1);
   }
 
   useEffect(() => {
@@ -21,7 +27,22 @@ export function Credit(props) {
       creditsRef.current.classList.remove(style.hover);
     });
     // Hiding and showing Credits on hover
-  }, [creditsRef]);
+    setIndex(creditsRef.current.parentElement.parentElement.getAttribute("index"));
+  }, []);
+
+  useEffect(() => {
+    if(index)
+      artsDB.child(index).child("likes").on("value", snap => {
+        const results = snap.val();
+        if(results) {
+          setNoOfLikes(Object.keys(results).length);
+          setLiked(results.hasOwnProperty(window.ip_address));
+        } else {
+          setNoOfLikes(0);
+          setLiked(false);
+        }
+      });
+  }, [index])
 
   return (
     <div className={style.credits} ref={creditsRef}>
@@ -31,7 +52,7 @@ export function Credit(props) {
           {props.data.name}
         </a>
       </div>
-      <div onClick={likeArt} className={`${style.likes} ${liked ? style.highlighted : ""}`}>
+      <div onClick={likeAndUnlikeArt} className={`${style.likes} ${liked ? style.highlighted : ""}`}>
         <span className={style.likesNum}>{noOfLikes}</span>
         {liked && <MdFavorite className={style.likeIcon}/>}
         {!liked && <MdFavoriteBorder className={style.likeIcon}/>}

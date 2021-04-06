@@ -10,15 +10,47 @@
   line-height: 50px;
   transform: translateY(50px);
   transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+  display: grid;
+  grid-template-columns: 1fr auto;
 }
 
-.hover {
+.credits.hover {
   transform: translateY(0px);
-  transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-.credit a {
-  color: rgb(255, 114, 98);
+.credit {
+  padding: 0 14px;
+  text-align: left;
+}
+
+.highlighted {
+  color: #ff7262;
   text-decoration: none;
   font-weight: bold;
+}
+
+.likes {
+  cursor: pointer;
+  height: 100%;
+  display: grid;
+  grid-gap: 4px;
+  grid-template-columns: auto auto;
+  padding: 0 14px;
+  background-color: #ffffff2c;
+  transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.likes.highlighted {
+  background-color: #ff72623d;
+}
+
+.likesNum {
+  display: inline;
+  margin: auto;
+}
+
+.likeIcon {
+  font-size: 20px;
+  margin: 14px 0 0 0;
 }

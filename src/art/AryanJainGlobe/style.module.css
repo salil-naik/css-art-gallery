@@ -1,5 +1,5 @@
 .container {
-  background-color: blue;
+  background-color:paleturquoise;
 }
 
 .circle {
@@ -8,7 +8,7 @@
   width: 100px;
   background: green;
   border-radius: 90%;
-  box-shadow: 90px 0 blueviolet, 0 90px green ;
+  box-shadow: 90px 0 rgb(162, 89, 255), 0 90px #ff7262 ;
   margin: 10;
-  background: radial-gradient(circle at 100px 100px, #5cabff, rgba(0, 0, 0, 0.897));
+  background: radial-gradient(circle at 100px 100px, rgb(26, 188, 254), rgba(151, 136, 136, 0.897));
 }

@@ -1,0 +1,52 @@
+.container {
+    background-color: #20232a;
+  }
+
+.logoContainer {
+    position: relative;
+    height: 150px;
+    width: 150px;
+}
+
+.instagram{
+    width: 10rem;
+    height: 10rem;
+    background:  radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    border-radius: 2rem;
+    display: grid;
+    place-items: center;
+}
+
+.square{
+    width: 7rem;
+    height: 7rem;
+    border: 10px solid #fff;
+    background-color: transparent;
+    border-radius: 2rem;
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+
+.square::before{
+    content: "";
+    width: 40px;
+    height: 40px;
+    border: 10px solid #fff;
+    background-color: transparent;
+    border-radius: 50%;
+    position: absolute;
+
+}
+
+.square::after{
+    content: "";
+    width: 1px;
+    height: 1px;
+    border: 6px solid #fff;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    right: 8px;
+}

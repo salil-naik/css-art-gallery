@@ -22,7 +22,7 @@ let componentArr = [
   <SalilEclips />,
   <SalilMicrosoft />,
   <JaagravGithubLogo />,
-  <RainbowBlocks />,
+  <RainbowBlocks />
   
 ];
 

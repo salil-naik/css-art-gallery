@@ -1,0 +1,46 @@
+.container {
+    background: #c9d6ff;
+}
+.logoContainer {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background: #f2692e;
+    border-radius: 5px;
+}
+.mtext{
+    height: 57px;
+    width: 62px;
+    left: 32px;
+    top: 47px;
+    background: #fff;
+    position: relative;
+    border-top-right-radius: 20px;
+}
+
+.mInsert{
+    height: 46px;
+    width: 35px;
+    left: 14px;
+    top: 12px;
+    background: #f2692e;
+    position: relative;
+    border-top-right-radius: 10px;
+}
+
+.mInner{
+    height: 35px;
+    width: 13px;
+    left: 10px;
+    top: 10px;
+    background: #fff;
+    position: relative;
+}
+.itext{
+    height: 57px;
+    width: 13px;
+    left: 104px;
+    top: -10px;
+    background: #fff;
+    position: relative;
+}

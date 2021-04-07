@@ -1,3 +1,16 @@
 .container {
-  background-color: pink;
+  background-color: rgb(34, 9, 34);
+}
+
+.blocks{
+  height:130px;
+  width: 160px;
+  border-top-left-radius: 65px;
+  border-top-right-radius: 65px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: rgb(160, 139, 196);
+  border: 40px solid rgb(34, 9, 34);
+  border-bottom: 20px solid transparent;
+  
 }

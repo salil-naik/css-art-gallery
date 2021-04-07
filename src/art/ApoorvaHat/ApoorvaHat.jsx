@@ -5,12 +5,12 @@ import { Credit } from "../../components/Credit/index";
 // For example, SalilReactLogo or SalilNaikReactLogo
 // component name, file name and folder name should be same. 
 
-function ComponentName() {
+function ApoorvaHat() {
   // Enter your name, github url and art-name below
   let data = {
-    name: "",
-    "gh-link": "",
-    "art-name": "",
+    name: "Apoorva Chauhan",
+    "gh-link": "https://github.com/apoorva567",
+    "art-name": "hat",
   };
   return (
     <div className={`${style.container} container`}>
@@ -18,7 +18,8 @@ function ComponentName() {
 
       {/* your art blocks will come here */}
       <div>
-
+        <div className={style.blocks}></div>
+     
 
       </div>
 
@@ -28,4 +29,4 @@ function ComponentName() {
   );
 }
 
-export default ComponentName;
+export default ApoorvaHat;

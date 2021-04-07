@@ -1,12 +1,12 @@
 .container {
-    background-color: #f2f2b6;
+    background-color: #242526;
   }
   
 .wrapper{
     margin: 100px;
     width: 9.6rem;
     height: 9.6rem;
-    background: #3b5999;
+    background: #2D88FF;
     border-radius: 8px;
     overflow: hidden;
 }
@@ -27,7 +27,7 @@
     left: 25px;
     top: 22px;
     position: relative;
-    background: #3b5999;
+    background: #2D88FF;
     border-top-left-radius: 12px;
  }
 

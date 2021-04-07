@@ -1,0 +1,14 @@
+.container {
+  background-color:paleturquoise;
+}
+
+.circle {
+  display: block;
+  height: 100px;
+  width: 100px;
+  background: green;
+  border-radius: 90%;
+  box-shadow: 90px 0 rgb(162, 89, 255), 0 90px #ff7262 ;
+  margin: 10;
+  background: radial-gradient(circle at 100px 100px, rgb(26, 188, 254), rgba(151, 136, 136, 0.897));
+}

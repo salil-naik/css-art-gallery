@@ -5,7 +5,7 @@
 
 
 ## Run the project
-Run the `yarn install` command in the terminal to downlaod the dependencies.   
+Run the `yarn install` command in the terminal to download the dependencies.   
 Run the `yarn start` command to run the project in the development mode. 
 
 Open http://localhost:3000 to view it in the browser.

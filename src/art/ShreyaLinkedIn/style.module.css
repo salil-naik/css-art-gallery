@@ -1,0 +1,23 @@
+.container {
+  background-color: #e7eef5;
+}
+
+.logo {
+  position: absolute;
+  font-size: 7em;
+  color: white;
+  font-weight: bold;
+}
+
+.blocks {
+  height: 130px;
+  width: 130px;
+  padding: 0%;
+  margin: 0%;
+  display: flex;
+  justify-content: center;
+  background-color: #0073b1;
+  border-radius: 15px;
+  position: relative;
+  align-items: center;
+}

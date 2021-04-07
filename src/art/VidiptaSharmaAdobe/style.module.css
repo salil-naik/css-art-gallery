@@ -1,0 +1,44 @@
+.container {
+  background-color: red;
+}
+
+#adobe {
+  height: 125px;
+  overflow: hidden;
+  position: relative;
+  width: 146px;
+}
+
+#adobe * {
+  position: absolute;
+}
+
+.adobe1,
+.adobe2,
+.adobe3 {
+  background: #fff;
+}
+
+.adobe1 {
+  height: 154px;
+  left: 27px;
+  top: -13px;
+  transform: rotate(23deg);
+  width: 35px;
+}
+
+.adobe2 {
+  height: 154px;
+  left: 81px;
+  top: -13px;
+  transform: rotate(-23deg);
+  width: 35px;
+}
+
+.adobe3 {
+  height: 25px;
+  left: 31px;
+  top: 100px;
+  transform: skewx(22deg);
+  width: 46px;
+}

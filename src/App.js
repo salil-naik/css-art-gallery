@@ -22,6 +22,12 @@ import {
   SharvariBirajdarLoader,
   AyushYadavAbstractArt,
   AvishakeAudiLogo,
+  AryanJainGlobe,
+  HarshitXiaomi,
+  PankajChromeLogo,
+  ShreyaLinkedIn,
+  ShridharAarogyaSetu,
+  VidiptaSharmaAdobe,
 } from "./art/index";
 
 // An array of Art Components
@@ -38,14 +44,20 @@ let componentArr = [
   <RitikaAgrawalMoneyHeistMask />,
   <ShwetalBlossom />,
   <SubhashreeRotatingCube />,
-  <HarshitFacebook />,
   <AntraCaptainShield />,
+  <HarshitFacebook />,
   <FalguniYouTube />,
   <HarshitInstagram />,
-  <SheetalJainPepsi />,
-  <SharvariBirajdarLoader />,
   <TarunGitLogo />,
   <AyushYadavAbstractArt />,
+  <AryanJainGlobe />,
+  <HarshitXiaomi />,
+  <PankajChromeLogo />,
+  <ShreyaLinkedIn />,
+  <ShridharAarogyaSetu />,
+  <VidiptaSharmaAdobe />,
+  <SheetalJainPepsi />,
+  <SharvariBirajdarLoader />,
   <AvishakeAudiLogo />,
 ];
 

@@ -1,0 +1,29 @@
+.container {
+  background-color: rgb(177, 140, 147);
+}
+
+.blocks{
+  left: 48%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    width: 90px;
+    height: 90px;
+    border-radius: 35% 35% 41% 41% / 42% 42% 75% 75%;
+}
+.logo{
+  background: #fff;
+  content: "";
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  margin: -104px 0 0 -12px;
+  border-radius: 100px 0;
+  z-index: 5;
+  
+}
+
+
+
+   

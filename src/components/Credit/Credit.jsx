@@ -5,18 +5,34 @@ import style from "./style.module.css";
 
 import {MdFavoriteBorder, MdFavorite} from "react-icons/md";
 
+import { useDoubleTap } from "use-double-tap";
+
 export function Credit(props) {
-  const creditsRef = useRef();
+  const creditsRef = useRef(), pulsingHeart = useRef();
   const [index, setIndex] = useState(null);
   const [noOfLikes, setNoOfLikes] = useState(0)
   const [liked, setLiked] = useState(false);
-
-  const likeAndUnlikeArt = () => {
-    if(liked)
-      artsDB.child(index).child("likes").child(window.ip_address).set(null);
-    else
-      artsDB.child(index).child("likes").child(window.ip_address).set(1);
+  
+  const pulseHeart = () => {
+    pulsingHeart.current.classList.remove(style.playPulse);
+    void pulsingHeart.current.offsetWidth;
+    pulsingHeart.current.classList.add(style.playPulse);
   }
+
+  const likeAndUnlikeArt = () => { 
+    if(!liked){
+      pulseHeart();
+      artsDB.child(index).child("likes").child(window.ip_address).set(1);
+    }
+    else
+      artsDB.child(index).child("likes").child(window.ip_address).set(null);
+  }
+
+  const bind = useDoubleTap(() => {
+    pulseHeart();
+    if(!liked)
+    likeAndUnlikeArt();
+  });
 
   useEffect(() => {
     creditsRef.current.parentElement.addEventListener("mouseover", (e) => {
@@ -49,12 +65,19 @@ export function Credit(props) {
             clearInterval(updater);
           } 
         }
-      // } while(!window.ip_address);
     }
       
   }, [index])
 
   return (
+    <>
+
+    <div {...bind} className={style.likeOverlay}>
+      <div  className={style.likeHeart} ref={pulsingHeart}>
+        <MdFavorite />
+      </div>
+    </div>
+
     <div className={style.credits} ref={creditsRef}>
       <div className={style.credit}>
         {props.data["art-name"]} by{" "}
@@ -68,5 +91,7 @@ export function Credit(props) {
         {!liked && <MdFavoriteBorder className={style.likeIcon}/>}
       </div>
     </div>
+
+    </>
   );
 }

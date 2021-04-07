@@ -3,7 +3,7 @@ import { Credit } from "../../components/Credit/index";
 
 // Replace ComponentName with YourName followed by ArtName.
 // For example, SalilReactLogo or SalilNaikReactLogo
-// component name, file name and folder name should be same. 
+// component name, file name and folder name should be same.
 
 function ShreyaLinkedIn() {
   // Enter your name, github url and art-name below
@@ -18,8 +18,9 @@ function ShreyaLinkedIn() {
 
       {/* your art blocks will come here */}
       <div>
-        <div className={style.blocks}><h1 className={style.logo}>in</h1></div>
-
+        <div className={style.blocks}>
+          <p className={style.logo}>in</p>
+        </div>
       </div>
 
       {/* do not edit the line below */}

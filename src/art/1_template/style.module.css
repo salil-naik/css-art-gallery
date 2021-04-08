@@ -1,3 +1,9 @@
 .container {
-  background-color: pink;
+  background-color: rgb(255, 192, 255);
+}
+
+.blocks{
+  height: 60px;
+  width: 60px;
+  background-color: blue;
 }

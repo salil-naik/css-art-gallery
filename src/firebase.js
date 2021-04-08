@@ -11,8 +11,11 @@ var firebaseConfig = {
   measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID,
 };
 // Initialize Firebase
-firebase.initializeApp(firebaseConfig);
+let artsDB;
 
-const artsDB = firebase.database().ref("css-art-gallery/arts");
+if (process.env.REACT_APP_FIREBASE_API_KEY) {
+  firebase.initializeApp(firebaseConfig);
+  artsDB = firebase.database().ref("css-art-gallery/arts");
+}
 
 export { firebase, artsDB };

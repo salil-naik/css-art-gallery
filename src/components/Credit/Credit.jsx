@@ -49,7 +49,7 @@ export function Credit(props) {
   }, []);
 
   useEffect(() => {
-    if (index) {
+    if (process.env.REACT_APP_FIREBASE_API_KEY && index) {
       const updater = setInterval(update, 500);
       function update() {
         if (window.ip_address) {
@@ -75,22 +75,22 @@ export function Credit(props) {
   return (
     <>
 
-    <div {...bind} className={style.likeOverlay}>
+    {process.env.REACT_APP_FIREBASE_API_KEY && <div {...bind} className={style.likeOverlay}>
       <div  className={style.likeHeart} ref={pulsingHeart}>
         <MdFavorite />
       </div>
-    </div>
+    </div>}
 
     <div className={style.credits} ref={creditsRef}>
       <div className={style.credit}>
         <p>
-          {props.data["art-name"]} <span>&nbsp;by&nbsp;</span>
+          {props.data["art-name"]}<span>&nbsp;by&nbsp;</span>
           <a href={props.data["gh-link"]} target="_blank" rel="noreferrer">
             {props.data.name}
           </a>
         </p>
       </div>
-      <div
+      {process.env.REACT_APP_FIREBASE_API_KEY && <div
         onClick={likeAndUnlikeArt}
         className={`${style.likes} ${liked ? style.highlighted : ""}`}
       >
@@ -104,7 +104,7 @@ export function Credit(props) {
         <span className={style.likesNum}>
           {numOfLikes} {numOfLikes > 1 ? "likes" : "like"}
         </span>
-      </div>
+      </div>}
     </div>
     </>
   );

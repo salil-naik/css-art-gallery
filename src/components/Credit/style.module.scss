@@ -1,19 +1,20 @@
 .likeOverlay {
   position: absolute;
-  height: 100%;
+  height: calc(100% - 50px);
+  padding-top: 50px;
   width: 100%;
-
   display: flex;
   justify-content: center;
   align-items: center;
-
   z-index: 2;
+  top: 0; 
+  left: 0;
 }
 
 .likeHeart {
-  font-size: 125px;
-  color: #ffffffcc;
-  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.8));
+  font-size: 100px;
+  color: #ffffff;
+  filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.3));
   transform: scale(0);
 
   &.playPulse{
@@ -80,8 +81,6 @@
   .likeIcon{
     color: rgb(237, 73, 86);
   }
-  // text-decoration: none;
-  // font-weight: bold;
 }
 
 .likes {
@@ -103,10 +102,6 @@
   }
 }
 
-// .likes.highlighted {
-//   background-color: #ff72623d;
-// }
-
 .likesNum {
  font-size: 8.5px;
  position:absolute;
@@ -122,12 +117,10 @@
 @keyframes pulse {
   0%,
   100% {
-    opacity: 0;
     -webkit-transform: scale(0);
     transform: scale(0);
   }
   15% {
-    opacity: 0.9;
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
   }
@@ -137,7 +130,6 @@
   }
   45%,
   80% {
-    opacity: 0.9;
     -webkit-transform: scale(1);
     transform: scale(1);
   }

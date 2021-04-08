@@ -82,7 +82,7 @@ export function Credit(props) {
     </div>
 
     <div className={style.credits} ref={creditsRef}>
-      <div className={style.credit} ref={artCaptionRef}>
+      <div className={style.credit}>
         <p>
           {props.data["art-name"]} <span>&nbsp;by&nbsp;</span>
           <a href={props.data["gh-link"]} target="_blank" rel="noreferrer">

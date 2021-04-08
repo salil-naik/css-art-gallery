@@ -8,30 +8,29 @@ import { MdFavoriteBorder, MdFavorite } from "react-icons/md";
 import { useDoubleTap } from "use-double-tap";
 
 export function Credit(props) {
-  const creditsRef = useRef(), pulsingHeart = useRef();
+  const creditsRef = useRef(),
+    pulsingHeart = useRef();
   const [index, setIndex] = useState(null);
   const [numOfLikes, setNumOfLikes] = useState(0);
   const [liked, setLiked] = useState(false);
-  
+
   const pulseHeart = () => {
     pulsingHeart.current.classList.remove(style.playPulse);
     void pulsingHeart.current.offsetWidth;
     pulsingHeart.current.classList.add(style.playPulse);
-  }
+  };
 
-  const likeAndUnlikeArt = () => { 
-    if(!liked){
+  const likeAndUnlikeArt = () => {
+    if (!liked) {
       pulseHeart();
       artsDB.child(index).child("likes").child(window.ip_address).set(1);
-    }
-    else
+    } else
       artsDB.child(index).child("likes").child(window.ip_address).set(null);
-  }
+  };
 
   const bind = useDoubleTap(() => {
     pulseHeart();
-    if(!liked)
-    likeAndUnlikeArt();
+    if (!liked) likeAndUnlikeArt();
   });
 
   useEffect(() => {
@@ -74,38 +73,37 @@ export function Credit(props) {
 
   return (
     <>
+      <div {...bind} className={style.likeOverlay}>
+        <div className={style.likeHeart} ref={pulsingHeart}>
+          <MdFavorite />
+        </div>
+      </div>
 
-    <div {...bind} className={style.likeOverlay}>
-      <div  className={style.likeHeart} ref={pulsingHeart}>
-        <MdFavorite />
+      <div className={style.credits} ref={creditsRef}>
+        <div className={style.credit}>
+          <p>
+            {props.data["art-name"]} <span>by&nbsp;</span>
+            <a href={props.data["gh-link"]} target="_blank" rel="noreferrer">
+              {props.data.name}
+            </a>
+          </p>
+        </div>
+        <div
+          onClick={likeAndUnlikeArt}
+          className={`${style.likes} ${liked ? style.highlighted : ""}`}
+        >
+          <span>
+            {liked ? (
+              <MdFavorite className={style.likeIcon} />
+            ) : (
+              <MdFavoriteBorder className={style.likeIcon} />
+            )}
+          </span>
+          <span className={style.likesNum}>
+            {numOfLikes} {numOfLikes > 1 ? "likes" : "like"}
+          </span>
+        </div>
       </div>
-    </div>
-
-    <div className={style.credits} ref={creditsRef}>
-      <div className={style.credit}>
-        <p>
-          {props.data["art-name"]} <span>&nbsp;by&nbsp;</span>
-          <a href={props.data["gh-link"]} target="_blank" rel="noreferrer">
-            {props.data.name}
-          </a>
-        </p>
-      </div>
-      <div
-        onClick={likeAndUnlikeArt}
-        className={`${style.likes} ${liked ? style.highlighted : ""}`}
-      >
-        <span>
-          {liked ? (
-            <MdFavorite className={style.likeIcon} />
-          ) : (
-            <MdFavoriteBorder className={style.likeIcon} />
-          )}
-        </span>
-        <span className={style.likesNum}>
-          {numOfLikes} {numOfLikes > 1 ? "likes" : "like"}
-        </span>
-      </div>
-    </div>
     </>
   );
 }

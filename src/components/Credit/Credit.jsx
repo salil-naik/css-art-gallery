@@ -5,18 +5,34 @@ import style from "./style.module.scss";
 
 import { MdFavoriteBorder, MdFavorite } from "react-icons/md";
 
+import { useDoubleTap } from "use-double-tap";
+
 export function Credit(props) {
-  const creditsRef = useRef();
-  const artCaptionRef = useRef();
+  const creditsRef = useRef(), pulsingHeart = useRef();
   const [index, setIndex] = useState(null);
   const [numOfLikes, setNumOfLikes] = useState(0);
   const [liked, setLiked] = useState(false);
+  
+  const pulseHeart = () => {
+    pulsingHeart.current.classList.remove(style.playPulse);
+    void pulsingHeart.current.offsetWidth;
+    pulsingHeart.current.classList.add(style.playPulse);
+  }
 
-  const likeAndUnlikeArt = () => {
-    if (liked)
+  const likeAndUnlikeArt = () => { 
+    if(!liked){
+      pulseHeart();
+      artsDB.child(index).child("likes").child(window.ip_address).set(1);
+    }
+    else
       artsDB.child(index).child("likes").child(window.ip_address).set(null);
-    else artsDB.child(index).child("likes").child(window.ip_address).set(1);
-  };
+  }
+
+  const bind = useDoubleTap(() => {
+    pulseHeart();
+    if(!liked)
+    likeAndUnlikeArt();
+  });
 
   useEffect(() => {
     creditsRef.current.parentElement.addEventListener("mouseover", (e) => {
@@ -34,7 +50,6 @@ export function Credit(props) {
 
   useEffect(() => {
     if (index) {
-      // do {
       const updater = setInterval(update, 500);
       function update() {
         if (window.ip_address) {
@@ -54,11 +69,18 @@ export function Credit(props) {
           clearInterval(updater);
         }
       }
-      // } while(!window.ip_address);
     }
   }, [index]);
 
   return (
+    <>
+
+    <div {...bind} className={style.likeOverlay}>
+      <div  className={style.likeHeart} ref={pulsingHeart}>
+        <MdFavorite />
+      </div>
+    </div>
+
     <div className={style.credits} ref={creditsRef}>
       <div className={style.credit} ref={artCaptionRef}>
         <p>
@@ -84,5 +106,6 @@ export function Credit(props) {
         </span>
       </div>
     </div>
+    </>
   );
 }

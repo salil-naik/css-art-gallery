@@ -1,3 +1,6 @@
+import { useEffect } from "react";
+import publicIp from "public-ip";
+
 // Components
 import { Header } from "./components/Header/index";
 import {
@@ -62,6 +65,16 @@ let componentArr = [
 ];
 
 function App() {
+  useEffect(() => {
+    async function getIP() {
+      window.ip_address = await publicIp.v4();
+      window.ip_address = window.ip_address.replace(
+        /[&/\\#,+()$~%.'":*?<>{}]/g,
+        ""
+      );
+    }
+    getIP();
+  }, []);
   return (
     <>
       <Header />
@@ -69,7 +82,7 @@ function App() {
         <div className="grid-x">
           {componentArr.map((component, index) => {
             return (
-              <div className="cell large-4 medium-6" key={index}>
+              <div className="cell large-4 medium-6" key={index} index={index}>
                 {component}
               </div>
             );

@@ -73,36 +73,40 @@ export function Credit(props) {
 
   return (
     <>
-      {process.env.REACT_APP_FIREBASE_API_KEY && <div {...bind} className={style.likeOverlay}>
-        <div className={style.likeHeart} ref={pulsingHeart}>
-          <MdFavorite />
+      {process.env.REACT_APP_FIREBASE_API_KEY && (
+        <div {...bind} className={style.likeOverlay}>
+          <div className={style.likeHeart} ref={pulsingHeart}>
+            <MdFavorite />
+          </div>
         </div>
-      </div>}
+      )}
 
       <div className={style.credits} ref={creditsRef}>
         <div className={style.credit}>
           <p>
-            {props.data["art-name"]}<span>by&nbsp;</span>
+            {props.data["art-name"]} <span>by&nbsp;</span>
             <a href={props.data["gh-link"]} target="_blank" rel="noreferrer">
               {props.data.name}
             </a>
           </p>
         </div>
-        {process.env.REACT_APP_FIREBASE_API_KEY && <div
-          onClick={likeAndUnlikeArt}
-          className={`${style.likes} ${liked ? style.highlighted : ""}`}
-        >
-          <span>
-            {liked ? (
-              <MdFavorite className={style.likeIcon} />
-            ) : (
-              <MdFavoriteBorder className={style.likeIcon} />
-            )}
-          </span>
-          <span className={style.likesNum}>
-            {numOfLikes} {numOfLikes > 1 ? "likes" : "like"}
-          </span>
-        </div>}
+        {process.env.REACT_APP_FIREBASE_API_KEY && (
+          <div
+            onClick={likeAndUnlikeArt}
+            className={`${style.likes} ${liked ? style.highlighted : ""}`}
+          >
+            <span>
+              {liked ? (
+                <MdFavorite className={style.likeIcon} />
+              ) : (
+                <MdFavoriteBorder className={style.likeIcon} />
+              )}
+            </span>
+            <span className={style.likesNum}>
+              {numOfLikes} {numOfLikes > 1 ? "likes" : "like"}
+            </span>
+          </div>
+        )}
       </div>
     </>
   );

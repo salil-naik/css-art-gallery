@@ -31,6 +31,7 @@ import {
   ShreyaLinkedIn,
   ShridharAarogyaSetu,
   VidiptaSharmaAdobe,
+  WebDevGoaWDGLogo
 } from "./art/index";
 
 // An array of Art Components
@@ -50,8 +51,9 @@ let componentArr = [
   <AntraCaptainShield />,
   <HarshitFacebook />,
   <FalguniYouTube />,
-  <HarshitInstagram />,
+  <WebDevGoaWDGLogo />,
   <TarunGitLogo />,
+  <HarshitInstagram />,
   <AyushYadavAbstractArt />,
   <AryanJainGlobe />,
   <HarshitXiaomi />,

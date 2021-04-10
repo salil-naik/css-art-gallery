@@ -1,12 +1,48 @@
-.container {
-    background-color: #2daae1;
-    display: flex;
-    overflow:hidden;
+ .container {
+  background-color: #00acee;
+  display: flex;
+  justify-content: center;
+  overflow:hidden;
   }
 
 .tbird {
-    align-content: center;
-    justify-content: center;
-    position: relative;
-    transform: none;
+  position: absolute;
+  background-color: #00acee;
+  top: 50%;
+  left: 50%;
+  height: 15em;
+  width: 16em;
+  border-radius: 15%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+.tbird::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 5.125em;
+  width: 5.125em;
+  margin-top: -5.125em;
+  border-radius: 100%;
+  background-color: #fff;
+  box-shadow: 1.1em -6.05em 0 1.85em #00acee, 1.2em -3.12em 0 -0.15em #fff, 
+  1.975em -5.35em 0 1.84em #00acee, 1.5em -2.2em 0 -0.125em #fff, 
+  -2.1em -6.7em 0 4.75em #00acee, -5.5em -0.8em 0 0.07em #fff, 
+  -7.2em -1.35em 0 0.07em #00acee, -5.5em 1em 0 0.07em #fff, 
+  -6.8em 1.1em 0 0.07em #00acee, -4.7em 2.8em 0 0.07em #fff, 
+  -8.3em 1.175em 0 2.775em #00acee, -8.275em -6.575em 0 2.775em #00acee, 
+  -4.75em 0.35em 0 4.75em #fff;
+}
+
+.tbird::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
 }

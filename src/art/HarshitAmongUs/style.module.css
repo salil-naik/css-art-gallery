@@ -1,0 +1,116 @@
+.container {
+    background-color: #ffde2a;
+  }
+  
+.player{
+    position: relative;
+    height: 150px;
+    width: 120px;
+    background: #24a8be;
+    border: 10px solid #000;
+    border-bottom: none;
+    border-radius: 60px 80px 0 0;
+    z-index: 1;
+}
+
+.player::after{
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 85%;
+    background: #38FEDB;
+    top: 2.5px;
+    left: 6px;
+    border-radius: 58% 70% 28% 42% / 28% 56% 88% 89%;
+}
+
+.back{
+    height: 100px;
+    width: 35px;
+    background: #38FEDB;
+    border: 10px solid #000;
+    position: absolute;
+    left: -45px;
+    top: 65px;
+    border-right: none;
+    border-radius: 20px 0 0 20px;
+}
+
+.back::before{
+    content: "";
+    position: absolute;
+    width: 26px;
+    height: 68px;
+    background: #24a8be;
+    bottom: -0.5px;
+    left: -1px;
+    border-radius: 12px 0 0 8px;
+}
+
+.glass{
+    height: 65px;
+    width: 100px;
+    background: #225381;
+    z-index: 2;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    border-radius: 25px 50px 30px 30px;
+    border: 10px solid #000;
+}
+
+.glass::before{
+    content: "";
+    position: absolute;
+    width: 85%;
+    height: 65%;
+    background: #71d4ec;
+    border-radius: 0 28px 3px 30px;
+    right: 0;
+    top: 0;
+}
+.glass::after{
+    content: "";
+    position: absolute;
+    width: 45%;
+    height: 22%;
+    background: #f7f7f7;
+    border-radius: 10px;
+    left: 30px;
+    top: 5px;
+    transform: rotate(6deg);
+}
+
+.leg{
+    height: 50px;
+    width: 50px;
+    background: #24a8be;
+    position: absolute;
+    bottom: -50px;
+    left: -10px;
+    border: 10px solid #000;
+    border-top: none;
+    border-radius: 0 0 22px 22px;
+}
+
+.leg::before{
+    content: "";
+    height: 35px;
+    width: 30px;
+    background: #24a8be;
+    position: absolute;
+    right: -80px;
+    border: 10px solid #000;
+    border-top: none;
+    border-radius: 0 0 22px 22px;
+}
+
+.leg::after{
+    content: "";
+    height: 10px;
+    width: 40px;
+    background: #000;
+    position: absolute;
+    left: 40px;
+    border-radius: 0 0 10px 0;
+}

@@ -1,0 +1,41 @@
+.container{
+    background-color: white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.logo{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background:white;
+    width:130px;
+    height:130px;
+    border-radius: 50%;
+    border-top: 50px solid #ea4335;
+    border-right: 50px solid #4285f4;
+    border-bottom: 50px solid #34a853;
+    border-left: 50px solid #fbb605;
+}
+.logo:before{
+    content:'';
+    position: absolute;
+    top:-155px;
+    left:70px;
+    border-top:100px solid transparent;
+    border-right:100px solid white;
+    border-left:100px solid transparent;
+    border-bottom:100px solid transparent;
+    transform: rotate(90deg);
+}
+.logo:after{
+    content:'';
+    position: absolute;
+    top:50%;
+    right:-50px;
+    width:100px;
+    height: 50px;
+    background: #4285f4;
+    transform:translate(-5px,-20px);
+}

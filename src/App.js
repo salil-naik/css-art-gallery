@@ -31,8 +31,7 @@ import {
   ShreyaLinkedIn,
   ShridharAarogyaSetu,
   VidiptaSharmaAdobe,
-  WebDevGoaWDGLogo,
-  SreehariTarget
+  WebDevGoaWDGLogo
 } from "./art/index";
 
 // An array of Art Components
@@ -65,8 +64,6 @@ let componentArr = [
   <SheetalJainPepsi />,
   <SharvariBirajdarLoader />,
   <AvishakeAudiLogo />,
-  <SreehariTarget />,
-
 ];
 
 function App() {

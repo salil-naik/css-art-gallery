@@ -1,0 +1,44 @@
+.container{
+    background-color:rgb(31,182,159);
+}
+.outer{
+    background-color: white;
+    height:100px;
+    width:100px;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50% 50% 50% 50%;
+}
+.inner{
+    background-color: rgb(82,206,95);
+    height:80px;
+    width:80px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50% 50% 50% 50%;
+    position: relative;
+}
+.outer::before{
+    content:"";
+    border:40px solid white ;
+    top:20.5%;
+    left:-3%;
+    position:absolute;
+    clip-path: polygon(26% 12%, 57% 37%, 90% 66%, 0% 100%);
+}
+.inner::before{
+    content:"";
+    border:15px solid rgb(82,206,95) ;
+    top:64%;
+    left:-4%;
+    position:absolute; 
+    clip-path: polygon(26% 12%, 57% 37%, 90% 66%, 0% 100%);
+}
+.wrapper{
+    height: 110px;
+    width:110px;
+    position:relative
+}

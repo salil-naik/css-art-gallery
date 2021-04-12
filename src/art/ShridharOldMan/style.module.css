@@ -1,14 +1,8 @@
 
   .container{
-    display:flex;
-    justify-content:center;
-    height:100%;
-    align-items:center;
     background-color:#5CB8FA;
   }
-  *{
-    margin:0;
-  }
+  
  
   .main,.body{
     position:relative;
@@ -18,17 +12,7 @@
     z-index:10000;
   }
   
-  /*.head::before{
-    content:'';
-    position:absolute;
-    height: 42px;
-    width: 48px;
-    border-radius: 50%;
-    background:blue;
-    top:20%;
-    left:-10%;
-    z-index:-1;
-  }*/
+ 
   .face{
     margin-top:-33px;
     height: 74px;

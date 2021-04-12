@@ -26,4 +26,3 @@ export { default as ShreyaLinkedIn } from "./ShreyaLinkedIn/ShreyaLinkedIn";
 export { default as ShridharAarogyaSetu } from "./ShridharAarogyaSetu/ShridharAarogyaSetu";
 export { default as VidiptaSharmaAdobe } from "./VidiptaSharmaAdobe/VidiptaSharmaAdobe";
 export { default as WebDevGoaWDGLogo } from "./WebDevGoaWDGLogo/WebDevGoaWDGLogo";
-export { default as SreehariTarget } from "./SreehariTarget/SreehariTarget";

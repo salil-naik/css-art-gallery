@@ -1,0 +1,24 @@
+.container {
+  background-color: red;
+}
+
+.outercircle{
+  padding: 30px;
+  background-color: white;
+  border-radius: 50%;
+}
+.redinnercircle{
+  padding: 30px;
+  background-color:red;
+  border-radius: 50%;
+}
+.innercircle{
+  padding: 30px;
+  background-color: white;
+  border-radius: 50%;
+}
+.textname{
+  color: white;
+  text-align: center;
+  font-size: x-large;
+}

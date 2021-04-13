@@ -1,0 +1,66 @@
+.container {
+    background-color: #d3cce3;
+  }
+
+.logoContainer {
+position: relative;
+height: 150px;
+width: 150px;
+background: #a50034;
+border-radius: 50%;
+}
+
+.lgG{
+position: relative;
+top: 10px;
+left: 10px;
+width: 130px;
+height: 130px;
+box-sizing: border-box;
+border: 6px solid #fff;
+border-radius: 50%;
+border-top: 6px solid transparent ;
+transform: rotateZ(45deg);
+}
+
+.logoContainer::before{
+    content: "";
+    position: absolute;
+    background: #fff;
+    width: 48px;
+    height: 6px;
+    top: 70px;
+    left: 92px;
+}
+
+.lgEye{
+    position: relative;
+    height: 17px;
+    width: 17px;
+    background: #fff;
+    border-radius: 50%;
+    top: 50px;
+    left: 18px;
+}
+
+.lgEye::before{
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 60px;
+    background: #fff;
+    top: -22px;
+    left: 35px;
+    transform: rotate(135deg);
+}
+
+.lgEye::after{
+    content: "";
+    position: absolute;
+    background: #fff;
+    width: 16px;
+    height: 6px;
+    top: 17px;
+    left: 57px;
+    transform: rotate(135deg);
+}

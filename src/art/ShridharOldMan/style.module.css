@@ -1,0 +1,125 @@
+
+  .container{
+    background-color:#5CB8FA;
+  }
+  
+ 
+  .main,.body{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    z-index:10000;
+  }
+  
+ 
+  .face{
+    margin-top:-33px;
+    height: 74px;
+    width: 70px;
+    background:#FF829F;
+    border-radius: 0px 0px 3px 3px;
+    border-bottom: 0.5px solid #d94b6c65;
+  }
+  .face::before{
+    content:'';
+    position:absolute;
+    height: 32px;
+    width: 38px;
+    border-radius: 50%;
+    background:#004BD1;
+    top:12%;
+    left:-10%;
+  }
+  .face::after{
+    content:'';
+    position:absolute;
+    height: 32px;
+    width: 26px;
+    border-radius: 50%;
+    background:#004BD1;
+    top:13%;
+    right:-12%;
+    z-index:130;
+  }
+  .head{
+    height: 62px;
+    width: 70px;
+    background:#FF829F;
+    border-radius:50%;
+    position:relative;
+    z-index:110;
+  }
+  .head::before{
+    content:'';
+    position: absolute;
+    width: 1px;
+    height: 36px;
+    background: #004ED2;
+    box-shadow: -1px 1px 3px rgba(0, 0, 0, 0.25);
+    top:70%;
+    left:22%;
+  }
+  .neck::after{
+    content:'';
+    position: absolute;
+    width: 8px;
+    height: 10px;
+    border-radius:50%;
+    background: #FF819F;
+    transform: rotate(7.5deg);
+    right:-3%;
+    top:36%;
+    z-index:1000;
+  }
+  .neck{
+    width: 47px;
+    height: 6px;
+    background: #d94b6b;
+    z-index:1000;
+  }
+  .neck::before{
+    content:'';
+    position:absolute;
+    width: 0;
+  height: 0;
+    bottom:-15%;
+    left:14.4%;
+    transform:rotate(180deg);
+  border-style: solid;
+  border-width: 0 25px 16px 25px;
+  border-color: transparent transparent #d94b6b transparent;
+  }
+  .shirt{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 70px 72px 70px;
+    border-color: transparent transparent #FFF159 transparent;
+    border-radius: 2px;
+    margin-top:-18%;
+    z-index:0 !important;
+  }
+  .shirt::before{
+    content:'';
+    position:absolute;
+    width: 0px;
+    height: 0px;
+    z-index:10000;
+    bottom:13%;
+    left:43%;
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent #004ED2 transparent;
+  }
+  .shirt::after{
+    content:'';
+    position:absolute;
+    width: 20px;
+    height: 21px;
+    z-index:10000;
+    bottom:0%;
+    left:43%;
+    background:#004ED2;
+    
+  }

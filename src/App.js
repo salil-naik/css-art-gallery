@@ -33,7 +33,8 @@ import {
   VidiptaSharmaAdobe,
   WebDevGoaWDGLogo,
   HarshitClock,
-  HarshitLG
+  HarshitLG,
+  ShridharOldMan
 } from "./art/index";
 
 // An array of Art Components
@@ -67,7 +68,8 @@ let componentArr = [
   <SharvariBirajdarLoader />,
   <AvishakeAudiLogo />,
   <HarshitClock />,
-  <HarshitLG />
+  <HarshitLG />,
+  <ShridharOldMan />
 ];
 
 function App() {

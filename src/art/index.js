@@ -28,3 +28,4 @@ export { default as VidiptaSharmaAdobe } from "./VidiptaSharmaAdobe/VidiptaSharm
 export { default as WebDevGoaWDGLogo } from "./WebDevGoaWDGLogo/WebDevGoaWDGLogo";
 export { default as HarshitClock } from "./HarshitClock/HarshitClock";
 export { default as HarshitLG } from "./HarshitLG/HarshitLG";
+export { default as ShridharOldMan } from "./ShridharOldMan/ShridharOldMan";

@@ -11,11 +11,15 @@ import SalilEclips from "./art/SalilEclips/SalilEclips.jsx";
 import SalilMicrosoft from "./art/SalilMicrosoft/SalilMicrosoft.jsx";
 import JaagravGithubLogo from "./art/JaagravGithubLogo/JaagravGithubLogo.jsx";
 import RainbowBlocks from "./art/RainbowBlocks/RainbowBlocks.jsx";
+import RaveenaSachiniPowerSymbol from "./art/RaveenaSachiniPowerSymbol/RaveenaSachiniPowerSymbol.jsx";
+import RaveenaSachiniSwastika from "./art/RaveenaSachiniSwastika/RaveenaSachiniSwastika.jsx";
 
 // An array of Art Components
 let componentArr = [
   <SalilFigma />,
   <SalilReact />,
+  <RaveenaSachiniPowerSymbol />,
+  <RaveenaSachiniSwastika />,
   <SalilPhotos />,
   <SalilDroplets />,
   <SalilAvicii />,

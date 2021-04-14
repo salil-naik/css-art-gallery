@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import style from "./header.module.css";
+import style from "./style.module.css";
 
 export function Header() {
   const [stars, updateStars] = useState(0);

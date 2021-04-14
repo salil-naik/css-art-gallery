@@ -1,0 +1,17 @@
+.container {
+  background-color: #f2f2b6;
+}
+
+.cream{
+  height: 120px;
+  width: 80px;
+  background-color: rgb(255, 136, 0);
+}
+
+.stick{
+  height: 30px;
+  width: 20px;
+  background-color: brown;
+}
+
+

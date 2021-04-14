@@ -1,0 +1,53 @@
+.container {
+    background-color: #242526;
+  }
+  
+.wrapper{
+    margin: 100px;
+    width: 9.6rem;
+    height: 9.6rem;
+    background: #2D88FF;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.ftop{
+    width: 3.2rem;
+    height: 10rem;
+    left: 5rem;
+    top: 1.5rem;
+    background: #fff;
+    position: relative;
+    border-top-left-radius: 35px;
+}
+
+.fline{
+    width: 2.4rem;
+    height: 10rem;
+    left: 25px;
+    top: 22px;
+    position: relative;
+    background: #2D88FF;
+    border-top-left-radius: 12px;
+ }
+
+ .fbox{
+   width: 62px;
+   height: 20px;
+   left: 62px;
+   top: -90px;
+   background: #fff;
+   position: relative;
+ }
+
+ .fbox2{
+    width: 5px;
+    height: 20px;
+    left: 122px;
+    top: -110px;
+    background: #fff;
+    position: relative;
+    transform: rotate(7deg);
+ }
+
+  

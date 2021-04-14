@@ -1,0 +1,136 @@
+.likeOverlay {
+  position: absolute;
+  height: calc(100% - 50px);
+  padding-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  top: 0; 
+  left: 0;
+}
+
+.likeHeart {
+  font-size: 100px;
+  color: #ffffff;
+  filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.3));
+  transform: scale(0);
+
+  &.playPulse{
+    animation: pulse 1s ease-in-out;
+  }
+}
+
+
+.credits {
+  position: absolute;
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  bottom: 0;
+  left: 0;
+  line-height: 50px;
+  transform: translateY(50px);
+  transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+  display: grid;
+  grid-template-columns: 1fr auto;
+
+  * {
+    user-select: none;
+  }
+}
+
+.credits.hover {
+  transform: translateY(0px);
+}
+
+.credit {
+  padding: 0 14px;
+  text-align: left;
+  position:relative;
+  overflow:hidden;
+  z-index: 1;
+
+  p{
+    margin:0; 
+    // display:inline-flex;
+    padding: 0 14px;
+    position:absolute; 
+    left: 0;
+    bottom: 0;
+    font-weight: 400;
+
+    // remove the lines below when animation works. 
+    overflow:hidden;
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    a{
+      text-decoration: none;
+      color: #ff7262;
+      font-weight: 600;
+    }
+  }
+}
+
+.highlighted {
+  .likeIcon{
+    color: rgb(237, 73, 86);
+  }
+}
+
+.likes {
+  cursor: pointer;
+  height: 50px; 
+  width: 66px;
+  position: relative;
+  padding: 8px 14px 14px;
+  line-height: normal;
+  transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+  user-select: none;
+  background-color: rgba(255, 255, 255, 0.14);
+
+  span{
+    &:first-child{
+      display:block;
+      line-height: 10px;
+    }
+  }
+}
+
+.likesNum {
+ font-size: 8.5px;
+ position:absolute;
+ left: 0;
+ bottom: 6px;
+ width: 100%;
+}
+
+.likeIcon {
+  font-size: 22px;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  15% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  30% {
+    -webkit-transform: scale(0.95);
+    transform: scale(0.95);
+  }
+  45%,
+  80% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}

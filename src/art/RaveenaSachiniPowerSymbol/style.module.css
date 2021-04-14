@@ -12,20 +12,10 @@
   width: 160px;
   height: 160px;
   border-radius: 160px;
-  background-color:black;
+  border: 20px solid black;
   position: absolute;
   margin-top: 20px;
   margin-left: 10px;
-}
-
-.insideCircle{
-  width:120px;
-  height:120px;
-  border-radius: 120px;
-  background-color:lightsteelblue;
-  position: absolute;
-  margin-top: 20px;
-  margin-left: 19px;
 }
 
 .outLineVertical{
@@ -35,6 +25,7 @@
   background-color:lightsteelblue;
   position: absolute;
   margin-left: 65px;
+  z-index: 1;
 }
 
 .insideLineVertical{
@@ -43,6 +34,5 @@
   border-radius: 130px;
   background-color:black;
   position: absolute;
-  margin-top: 0px;
   margin-left: 10px;
 }

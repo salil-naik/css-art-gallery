@@ -19,14 +19,10 @@ function RaveenaSachiniPowerSymbol() {
       {/* your art blocks will come here */}
       <div>
         <div className={style.outBox}>
-          <div className={style.outCircle}>
-            <div className={style.insideCircle}></div>
-          </div>
-
           <div className={style.outLineVertical}>
-            <div className={style.insideLineVertical}>
-            </div>
+            <div className={style.insideLineVertical}></div>
           </div>
+          <div className={style.outCircle}></div>
         </div>
       </div>
 

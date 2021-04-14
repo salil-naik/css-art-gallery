@@ -2,13 +2,13 @@
   background-color: lightsteelblue;
 }
 
-.outBox{
+.outerBox{
   width: 180px;
   height: 180px;
   /* background-color: teal; */
 }
 
-.outCircle{
+.outerCircle{
   width: 160px;
   height: 160px;
   border-radius: 160px;

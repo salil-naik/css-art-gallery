@@ -29,3 +29,9 @@ export { default as WebDevGoaWDGLogo } from "./WebDevGoaWDGLogo/WebDevGoaWDGLogo
 export { default as HarshitClock } from "./HarshitClock/HarshitClock";
 export { default as HarshitLG } from "./HarshitLG/HarshitLG";
 export { default as ShridharOldMan } from "./ShridharOldMan/ShridharOldMan";
+export { default as SrishtiGuleriaSpiral } from "./SrishtiGuleriaSpiral/SrishtiGuleriaSpiral";
+export { default as SrishtiGuleriaMyntra } from "./SrishtiGuleriaMyntra/SrishtiGuleriaMyntra";
+export { default as HarshitSnowman } from "./HarshitSnowman/HarshitSnowman";
+export { default as ApoorvaHat } from "./ApoorvaHat/ApoorvaHat";
+export { default as CharuWhatsApp } from "./CharuWhatsApp/CharuWhatsApp";
+export { default as SreehariTarget } from "./SreehariTarget/SreehariTarget";

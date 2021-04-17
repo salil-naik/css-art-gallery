@@ -34,7 +34,13 @@ import {
   WebDevGoaWDGLogo,
   HarshitClock,
   HarshitLG,
-  ShridharOldMan
+  ShridharOldMan,
+  SrishtiGuleriaSpiral,
+  SrishtiGuleriaMyntra,
+  HarshitSnowman,
+  ApoorvaHat,
+  CharuWhatsApp,
+  SreehariTarget
 } from "./art/index";
 
 // An array of Art Components
@@ -58,18 +64,24 @@ let componentArr = [
   <TarunGitLogo />,
   <HarshitInstagram />,
   <AyushYadavAbstractArt />,
-  <AryanJainGlobe />,
+  <SrishtiGuleriaSpiral />,
   <HarshitXiaomi />,
   <PankajChromeLogo />,
   <ShreyaLinkedIn />,
   <ShridharAarogyaSetu />,
-  <VidiptaSharmaAdobe />,
-  <SheetalJainPepsi />,
-  <SharvariBirajdarLoader />,
-  <AvishakeAudiLogo />,
   <HarshitClock />,
+  <VidiptaSharmaAdobe />,
   <HarshitLG />,
-  <ShridharOldMan />
+  <ShridharOldMan />,
+  <SrishtiGuleriaMyntra />,
+  <HarshitSnowman />,
+  <SheetalJainPepsi />,
+  <SreehariTarget />,
+  <AvishakeAudiLogo />,
+  <SharvariBirajdarLoader />,
+  <CharuWhatsApp />,
+  <ApoorvaHat />,
+  <AryanJainGlobe />
 ];
 
 function App() {

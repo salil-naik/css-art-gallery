@@ -17,25 +17,25 @@
 }
 .myntra div:nth-child(1){
     background: #FF0090;
-    left:60px;
+    left:0;
     top:10px;
     transform: rotate(20deg);
 }
 .myntra div:nth-child(2){
     background: #FD913c;
-    left:100px;
+    left:40px;
     top:10px;
     transform: rotate(-20deg);
 }
 .myntra div:nth-child(3){
     background: #F05524;
-    left:140px;
+    left:80px;
     top:10px;
     transform: rotate(20deg);
 }
 .myntra div:nth-child(4){
     background: #FF009D;
-    left:180px;
+    left:120px;
     top:10px;
     transform: rotate(-20deg);
 }

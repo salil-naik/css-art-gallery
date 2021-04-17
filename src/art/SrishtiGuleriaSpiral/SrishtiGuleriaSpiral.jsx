@@ -6,7 +6,7 @@ function SrishtiGuleriaSpiral() {
   let data = {
     name: "Srishti Guleria",
     "gh-link": "https://github.com/sg7801",
-    "art-name": "Spiral Logo",
+    "art-name": "Spiral Animation",
   };
   return (
     <div className={`${style.container} container`}>

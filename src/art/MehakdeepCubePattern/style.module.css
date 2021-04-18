@@ -1,0 +1,16 @@
+.container {
+background-color:rgb(54, 119, 112);
+background-image: linear-gradient(30deg, rgb(40, 82, 78) 12%, transparent 12.5%, transparent 87%, rgb(40, 82, 78) 87.5%, rgb(40, 82, 78)),
+linear-gradient(150deg, rgb(40, 82, 78) 12%, transparent 12.5%, transparent 87%, rgb(40, 82, 78) 87.5%, rgb(40, 82, 78)),
+linear-gradient(30deg, rgb(40, 82, 78) 12%, transparent 12.5%, transparent 87%, rgb(40, 82, 78) 87.5%, rgb(40, 82, 78)),
+linear-gradient(150deg, rgb(40, 82, 78) 12%, transparent 12.5%, transparent 87%, rgb(40, 82, 78) 87.5%, rgb(40, 82, 78)),
+linear-gradient(60deg, rgb(63, 236, 219) 25%, transparent 25.5%, transparent 75%, rgb(63, 236, 219) 75%, rgb(63, 236, 219)),
+linear-gradient(60deg, rgb(63, 236, 219) 25%, transparent 25.5%, transparent 75%, rgb(63, 236, 219) 75%, rgb(63, 236, 219));
+background-size:80px 140px;
+background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+}
+
+#frame { position:absolute; top:10px; bottom:0px; right:10px;
+  width:200px; height:200px; background-color:black;}
+
+

@@ -5,12 +5,12 @@ import { Credit } from "../../components/Credit/index";
 // For example, SalilReactLogo or SalilNaikReactLogo
 // component name, file name and folder name should be same. 
 
-function RaveenaSachiniPeaceSymbol() {
+function RaveenaSachiniSwastika() {
   // Enter your name, github url and art-name below
   let data = {
     name: "Raveena Sachini",
     "gh-link": "https://github.com/raveena69",
-    "art-name": "Symbol of Peace",
+    "art-name": "Swastika",
   };
   return (
     <div className={`${style.container} container`}>
@@ -18,19 +18,20 @@ function RaveenaSachiniPeaceSymbol() {
 
       {/* your art blocks will come here */}
       <div>
-        <div className={style.outCircle}>
-          <div className={style.innerCircle}>
-            <div className={style.innerLongVertical}></div>
-            <div className={style.innerShortLeft}></div>
-            <div className={style.innerShortRight}></div>
+          <div className={style.outBox}>
+            <div className={style.firstRow}></div>
+            <div className={style.firstRowLong}></div>
+            <div className={style.secondRow}></div>
+            <div className={style.thirdRow}></div>
+            <div className={style.secondRowLong}></div>
+            <div className={style.fourthRow}></div>
           </div>
-        </div>
       </div>
 
-      {/* do not edit the line below */}
+      {/* do not edit the line below */}  
       <Credit data={data} />
     </div>
   );
 }
 
-export default RaveenaSachiniPeaceSymbol;
+export default RaveenaSachiniSwastika;

@@ -5,12 +5,12 @@ import { Credit } from "../../components/Credit/index";
 // For example, SalilReactLogo or SalilNaikReactLogo
 // component name, file name and folder name should be same. 
 
-function RaveenaSachiniPowerSymbol() {
+function RaveenaSachiniPeaceSymbol() {
   // Enter your name, github url and art-name below
   let data = {
     name: "Raveena Sachini",
     "gh-link": "https://github.com/raveena69",
-    "art-name": "Power Symbol",
+    "art-name": "Symbol of Peace",
   };
   return (
     <div className={`${style.container} container`}>
@@ -18,11 +18,12 @@ function RaveenaSachiniPowerSymbol() {
 
       {/* your art blocks will come here */}
       <div>
-        <div className={style.outerBox}>
-          <div className={style.outLineVertical}>
-            <div className={style.insideLineVertical}></div>
+        <div className={style.outCircle}>
+          <div className={style.innerCircle}>
+            <div className={style.innerLongVertical}></div>
+            <div className={style.innerShortLeft}></div>
+            <div className={style.innerShortRight}></div>
           </div>
-          <div className={style.outerCircle}></div>
         </div>
       </div>
 
@@ -32,4 +33,4 @@ function RaveenaSachiniPowerSymbol() {
   );
 }
 
-export default RaveenaSachiniPowerSymbol;
+export default RaveenaSachiniPeaceSymbol;

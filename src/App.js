@@ -11,6 +11,7 @@ import SalilEclips from "./art/SalilEclips/SalilEclips.jsx";
 import SalilMicrosoft from "./art/SalilMicrosoft/SalilMicrosoft.jsx";
 import JaagravGithubLogo from "./art/JaagravGithubLogo/JaagravGithubLogo.jsx";
 import RainbowBlocks from "./art/RainbowBlocks/RainbowBlocks.jsx";
+import RaveenaSachiniPeaceSymbol from "./art/RaveenaSachiniPeaceSymbol/RaveenaSachiniPeaceSymbol.jsx";
 
 // An array of Art Components
 let componentArr = [
@@ -20,6 +21,7 @@ let componentArr = [
   <SalilDroplets />,
   <SalilAvicii />,
   <SalilEclips />,
+  <RaveenaSachiniPeaceSymbol />,
   <SalilMicrosoft />,
   <JaagravGithubLogo />,
   <RainbowBlocks />

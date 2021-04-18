@@ -1,0 +1,25 @@
+.container {
+  background:
+  linear-gradient(324deg, #0e1110 4%,   transparent 4%) -70px 43px,
+  linear-gradient( 36deg, #0e1110 4%,   transparent 4%) 30px 43px,
+  linear-gradient( 72deg, #eec063 8.5%, transparent 8.5%) 30px 43px,
+  linear-gradient(288deg, #eec063 8.5%, transparent 8.5%) -70px 43px,
+  linear-gradient(216deg, #eec063 7.5%, transparent 7.5%) -70px 23px,
+  linear-gradient(144deg, #eec063 7.5%, transparent 7.5%) 30px 23px,
+
+  linear-gradient(324deg, #0e1110 4%,   transparent 4%) -20px 93px,
+  linear-gradient( 36deg, #0e1110 4%,   transparent 4%) 80px 93px,
+  linear-gradient( 72deg, #eec063 8.5%, transparent 8.5%) 80px 93px,
+  linear-gradient(288deg, #eec063 8.5%, transparent 8.5%) -20px 93px,
+  linear-gradient(216deg, #eec063 7.5%, transparent 7.5%) -20px 73px,
+  linear-gradient(144deg, #eec063 7.5%, transparent 7.5%) 80px 73px;
+  background-color: #0e1110;
+  background-size: 100px 100px;
+}
+
+
+html {
+  height: 100%;
+}
+
+

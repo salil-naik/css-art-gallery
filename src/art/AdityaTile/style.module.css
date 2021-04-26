@@ -1,0 +1,11 @@
+.container {
+  background-color: darkblue;
+}
+
+.blocks{
+  height: 60px;
+  width: 60px;
+  background-color: white;
+  box-shadow: 90px 0 white, 0 90px white;
+}
+

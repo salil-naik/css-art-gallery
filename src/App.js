@@ -40,7 +40,13 @@ import {
   HarshitSnowman,
   ApoorvaHat,
   CharuWhatsApp,
-  SreehariTarget
+  SreehariTarget,
+  RaveenaSachiniPeaceSymbol,
+  RaveenaSachiniPowerSymbol,
+  RaveenaSachiniSwastika,
+  SrishtiGuleriaRound,
+  AparnaGoyalReddit,
+  KratiMitraSignal,
 } from "./art/index";
 
 // An array of Art Components
@@ -81,7 +87,13 @@ let componentArr = [
   <SharvariBirajdarLoader />,
   <CharuWhatsApp />,
   <ApoorvaHat />,
-  <AryanJainGlobe />
+  <AryanJainGlobe />,
+  <RaveenaSachiniPowerSymbol />,
+  <RaveenaSachiniPeaceSymbol />,
+  <RaveenaSachiniSwastika />,
+  <SrishtiGuleriaRound />,
+  <AparnaGoyalReddit />,
+  <KratiMitraSignal />,
 ];
 
 function App() {

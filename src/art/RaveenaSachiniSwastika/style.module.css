@@ -1,0 +1,61 @@
+.container {
+  background-color: lightgray;
+}
+
+.outBox{
+  height: 177px;
+  width:177px;
+}
+
+.firstRow{
+  height: 90px;
+  width: 20px;
+  background: black;
+  position: absolute; 
+  margin-bottom: 120px;
+  margin-right: 122 px;
+}
+
+.firstRowLong{
+  height: 20px;
+  width: 175px;
+  background: black;
+  transform: rotate(-90deg);
+  position: absolute;
+  margin-top: 78px;
+}
+
+.secondRow{
+  height: 20px;
+  width: 98px;
+  background: black;
+  transform: rotate(90deg);
+  position: absolute;
+  margin-top: 118px;
+  margin-left: 118px;
+}
+
+.thirdRow{
+  height: 20px;
+  width: 98px;
+  background: black;
+  position: absolute;
+  margin-left: 79px;
+}
+
+.secondRowLong{
+  height: 20px;
+  width: 177px;
+  background: black;
+  position: absolute;
+  margin-top: 76px;
+}
+
+.fourthRow{
+  height: 20px;
+  width: 98px;
+  background: black;
+  position: absolute;
+  margin-top: 157px;
+}
+

@@ -1,78 +1,60 @@
-.container{
-    background-color:rgb(52, 70, 235);
+.container {
+  background-color: rgb(52, 70, 235);
 }
-.outer{
-    display:inline-flex;
-    border-radius: 60% 60% 60% 60%;
-    height:120px;       
-    background-color: rgb(52, 70, 235);
-    align-items: center;
-    border: 4px dashed white;
-    width:120px;     
-    justify-content: center; 
-    
-    
+.outer {
+  display: inline-flex;
+  border-radius: 60% 60% 60% 60%;
+  height: 120px;
+  background-color: rgb(52, 70, 235);
+  align-items: center;
+  border: 4px dashed white;
+  width: 120px;
+  justify-content: center;
 }
 
-.inner{
-    width:100px;    
-    height:100px;
-    position: relative;
-    justify-content: center;
-    display:inline-flex;    
-    background-color: white;
-    align-items: center;
-    border-radius: 60% 60% 60% 60%;
-    
-}
-  
- 
-.uppertriangle{
-    position: absolute;
-    transform: rotate(223deg);
-    top:87px;
-    height:40px;
-    width:40px;
-    right:82px;
-    border-right:dotted 20px transparent;
-    border-bottom:solid 30px white;    
-    border-left:dashed 20px transparent;
+.inner {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  justify-content: center;
+  display: inline-flex;
+  background-color: white;
+  align-items: center;
+  border-radius: 60% 60% 60% 60%;
 }
 
-.triangle{  
-    position: absolute;    
-    transform: rotate(225deg);
-    top:79px;    
-    left:-17px;
-    width:10px;
-    height:50px;
-    border-right:dotted 17px transparent;
-    border-bottom:solid 35px rgb(52, 70, 235);
-    border-left:dashed 17px transparent;
+.uppertriangle {
+  position: absolute;
+  transform: rotate(223deg);
+  top: 87px;
+  height: 40px;
+  width: 40px;
+  right: 82px;
+  border-right: dotted 20px transparent;
+  border-bottom: solid 30px white;
+  border-left: dashed 20px transparent;
 }
 
-.outertriangle{
-    position: absolute; 
-    transform: rotate(345deg);
-    top:45.5px; 
-    width:1px;   
-    left:-5px;    
-    height:1px;
-    border-right:dotted 30px transparent;    
-    border-bottom:dashed 50px white;
-    border-left:dotted 30px transparent;
-    
-    
+.triangle {
+  position: absolute;
+  transform: rotate(225deg);
+  top: 79px;
+  left: -17px;
+  width: 10px;
+  height: 50px;
+  border-right: dotted 17px transparent;
+  border-bottom: solid 35px rgb(52, 70, 235);
+  border-left: dashed 17px transparent;
 }
 
-
-
-.wrapper{
-    width:150px;
-    height:150px;
-    position:absolute;
-    
-    
+.outertriangle {
+  position: absolute;
+  transform: rotate(345deg);
+  top: 45.5px;
+  width: 1px;
+  left: -5px;
+  height: 1px;
+  border-right: dotted 30px transparent;
+  border-bottom: dashed 50px white;
+  border-left: dotted 30px transparent;
 }
-
-

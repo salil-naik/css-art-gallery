@@ -1,0 +1,39 @@
+.container {
+  background-color:#E01F3D;
+}
+
+.container-outer{
+  width:200px;
+  height:200px;
+  background-color:#fff;
+  border-radius:50%;
+  position:relative;
+  display:flex;
+  align-items: center;
+  justify-content: center;  
+}
+.rect{
+  width: 14px;
+  height: 100px;
+  background: #fff;
+  position: absolute;
+  top: -6px;
+  left: 40px;
+}
+.circlered{
+  overflow:hidden;
+  width:180px;
+  height:180px;
+  border-radius: 100%;
+  background:#E01F3D;
+  position:relative;
+}
+.circlewhite{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #E01F3D;
+  border: 15px solid #fff;
+  margin:0 auto;
+  margin-top: 40px;
+}

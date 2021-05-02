@@ -14,7 +14,7 @@ function SwapnilRawatBeats() {
       {/* DO NOT edit the line above*/}
 
       {/* your art blocks will come here */}
-    <div className={style.container-outer}>
+    <div className={style.containerouter}>
         <div class={style.circlered}>
         <div class={style.circlewhite}></div>
         <div class={style.rect}></div>
@@ -26,4 +26,4 @@ function SwapnilRawatBeats() {
   );
 }
 
-export default VidiptaSharmaAdobe;
+export default SwapnilRawatBeats;

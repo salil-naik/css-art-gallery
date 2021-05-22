@@ -1,0 +1,11 @@
+.container {
+  background-color: pink;
+}
+.blocks
+{
+  height: 60px;
+  width:60px;
+  background-color: brown;
+  box-shadow: 36px 0 red 67px 0 pink;
+  border: 23px;
+}

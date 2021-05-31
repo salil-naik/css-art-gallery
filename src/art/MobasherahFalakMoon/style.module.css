@@ -1,0 +1,14 @@
+.container {
+  background-color: black;
+}
+
+.blocks {
+  height: 90px;
+  width: 90px;
+  background-color: gray, gray;
+  box-shadow: 30px 0 white;
+  border-radius: 60%;
+ 
+}
+
+

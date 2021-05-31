@@ -47,7 +47,7 @@ import {
   SrishtiGuleriaRound,
   AparnaGoyalReddit,
   KratiMitraSignal,
-  MobasherahFalakMoon,
+  MobasherahFalakBat,
 } from "./art/index";
 
 // An array of Art Components
@@ -95,7 +95,7 @@ let componentArr = [
   <SrishtiGuleriaRound />,
   <AparnaGoyalReddit />,
   <KratiMitraSignal />,
-  <MobasherahFalakMoon />,
+  <MobasherahFalakBat />,
 ];
 
 function App() {

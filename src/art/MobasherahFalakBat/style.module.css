@@ -1,0 +1,107 @@
+.container {
+  background-color: black;
+}
+
+.blocks {
+  
+  height: 90px;
+  width: 90px;
+  background-color: gray, gray;
+  box-shadow: 30px 0 gray;
+  border-radius: 60%;
+ 
+}
+
+.blocks1 {
+  position: absolute;
+  bottom: 45px;
+  height: 90px;
+  width: 90px;
+  background-color: gray, gray;
+  box-shadow: 30px 0 gray;
+  border-radius: 60%;
+
+}
+
+.blocks2 {
+  position: relative;
+  bottom: 65px;
+  height: 5px;
+  width: 5px;
+  background-color: gray, gray;
+  box-shadow: 5px 0 white;
+  border-radius: 45%;
+
+}
+
+
+
+.blocks3 {
+  position: relative;
+  bottom: 44px;
+  height: 5px;
+  width: 5px;
+  background-color: rgb(238, 119, 23), rgb(238, 122, 14);
+  box-shadow: 5px 0 rgb(230, 121, 48);
+  border-radius: 45%;
+
+}
+
+.blocks4 {
+  position: relative;
+  top: 53px;
+  height: 5px;
+  width: 5px;
+  background-color: rgb(228, 188, 188), rgb(224, 172, 172);
+  box-shadow: 5px 0 rgb(230, 161, 161);
+  border-radius: 45%;
+
+}
+
+.blocks5 {
+  position: relative;
+  bottom: 27px;
+  height: 5px;
+  width: 5px;
+  background-color: rgb(245, 167, 238), rgb(241, 176, 241);
+  box-shadow: 5px 0 rgb(240, 170, 211);
+  border-radius: 45%;
+
+}
+
+.blocks6 {
+  position: relative;
+  top: 23px;
+  height: 5px;
+  width: 5px;
+  background-color: rgb(184, 12, 141), rgb(226, 27, 166);
+  box-shadow: 5px 0 rgb(180, 13, 130);
+  border-radius: 45%;
+
+}
+
+
+.blocks7 {
+  position: relative;
+  top: 111;
+  height: 5px;
+  width: 5px;
+  background-color: rgb(19, 182, 194), rgb(56, 140, 209);
+  box-shadow: 5px 0 rgb(18, 135, 170);
+  border-radius: 45%;
+
+}
+
+.blocks8 {
+  position: absolute;
+  top: 85px;
+  height: 5px;
+  width: 5px;
+  background-color: rgb(27, 19, 139), rgb(37, 15, 160);
+  box-shadow: 5px 0 rgb(61, 52, 187);
+  border-radius: 45%;
+
+}
+
+
+

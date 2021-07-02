@@ -1,0 +1,53 @@
+.container {
+  background-color: #e4e4e4;
+}
+
+.container * {
+  box-sizing: unset;
+}
+
+.c1 {
+  width: 139px;
+  height: 140px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  bottom: 0;
+  border-radius: 50%;
+  border: 6px solid #1b1b1b;
+  overflow: hidden;
+  box-shadow: 0 0 10px grey;
+  background-color: #fff;
+}
+.c1 .rect1 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 70px;
+  width: 140px;
+  background: red;
+  border-bottom: 6px solid #1b1b1b;
+}
+.c1 .Scircle {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 6px solid #1b1b1b;
+  background: white;
+}
+.Scircle .SScircle {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 1px solid #1b1b1b;
+  background: white;
+}

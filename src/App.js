@@ -47,6 +47,7 @@ import {
   SrishtiGuleriaRound,
   AparnaGoyalReddit,
   KratiMitraSignal,
+  NehaWindow10Logo,
 } from "./art/index";
 
 // An array of Art Components
@@ -94,6 +95,7 @@ let componentArr = [
   <SrishtiGuleriaRound />,
   <AparnaGoyalReddit />,
   <KratiMitraSignal />,
+  <NehaWindow10Logo />
 ];
 
 function App() {

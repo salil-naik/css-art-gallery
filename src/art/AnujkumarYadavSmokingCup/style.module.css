@@ -37,7 +37,7 @@ h3{
   text-align: center;
   padding-top: 1rem;
 }
-span{
+.code {
   color: #fdd47a;;
 }
 .smoke:before {

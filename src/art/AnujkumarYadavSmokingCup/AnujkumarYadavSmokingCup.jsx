@@ -24,7 +24,7 @@ function AnujkumarYadavSmokingCup() {
               <span className={style.smoke}></span>
               <h3>Eat <br />
               Sleep <br />
-              <span>Code</span> <br />
+              <span className={style.code}>Code</span> <br />
               Repeat</h3>
             </div>
           </div>

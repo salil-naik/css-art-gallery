@@ -47,6 +47,9 @@ import {
   SrishtiGuleriaRound,
   AparnaGoyalReddit,
   KratiMitraSignal,
+  DarkXamperPokeball,
+  SwapnilRawatBeats,
+  AnujkumarYadavSmokingCup,
 } from "./art/index";
 
 // An array of Art Components
@@ -94,6 +97,9 @@ let componentArr = [
   <SrishtiGuleriaRound />,
   <AparnaGoyalReddit />,
   <KratiMitraSignal />,
+  <DarkXamperPokeball />,
+  <SwapnilRawatBeats />,
+  <AnujkumarYadavSmokingCup />,
 ];
 
 function App() {
